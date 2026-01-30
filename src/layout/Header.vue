@@ -1,6 +1,10 @@
 <script>
+
+import HeaderDropdown from "@/layout/HeaderDropdown.vue";
+
 export default {
-  name: "Header"
+  name: "Header",
+  components: {HeaderDropdown}
 }
 </script>
 
@@ -19,9 +23,7 @@ export default {
         </li>
       </ul>
     </nav>
+    <HeaderDropdown/>
   </header>
 </template>
 
-<style scoped>
-
-</style>

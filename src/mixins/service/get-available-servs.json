@@ -1,0 +1,2765 @@
+{
+  "data": [
+    {
+      "id": 148,
+      "name": "Смотрешка",
+      "code": "smotreshka",
+      "modes": [
+        {
+          "id": 4637,
+          "name": "Публичный МАТЧ! (1000 руб.)_API id 1051",
+          "code": "smotreshka_publichny_match_1000_id1051"
+        },
+        {
+          "id": 4636,
+          "name": "Публичный KHL (450 руб.)_API id 1053",
+          "code": "smotreshka_publichny_khl_450_id1053"
+        },
+        {
+          "id": 4635,
+          "name": "Коммерческий СУПЕР МАТЧ! (450 руб.)_API id 1054",
+          "code": "smotreshka_commerchesky_super_match_450r_id1054"
+        },
+        {
+          "id": 4634,
+          "name": "Коммерческий МАТЧ! (199 руб.)_API id 1052",
+          "code": "smotreshka_commerchesky_match_199r_id1052"
+        },
+        {
+          "id": 4633,
+          "name": "Коммерческий KHL Prime (249 руб.)_API id 1055",
+          "code": "smotreshka_commerchesky_khl_prime_249r_id1055"
+        },
+        {
+          "id": 4632,
+          "name": "Коммерческий KHL (199 руб.)_API id 1056",
+          "code": "smotreshka_commerchesky_khl_199r_id1056"
+        },
+        {
+          "id": 4629,
+          "name": "Смарт + PREMIER (250 руб.)_API id 9101",
+          "code": "smotreshka_smart_250r_premier"
+        },
+        {
+          "id": 4572,
+          "name": "СУПЕРМАТЧ! (4500 руб.)_API id 208",
+          "code": "smotreshka_supermatch_4500_id208"
+        },
+        {
+          "id": 4571,
+          "name": "Публичный Новый + Спорт (7490 руб.)_API id1512",
+          "code": "smotreshka_publichny_novy_plus_sport_7490_id1512"
+        },
+        {
+          "id": 4570,
+          "name": "Публичный Новый (1699 руб.)_API id1511",
+          "code": "smotreshka_publichny_novy_1699_id1511"
+        },
+        {
+          "id": 4569,
+          "name": "Публичный Лайт (799 руб.)_API id 1510",
+          "code": "smotreshka_publichny_lite_799_id1510"
+        },
+        {
+          "id": 4568,
+          "name": "КХЛ HD (1490 руб.)_API id 209",
+          "code": "smotreshka_khl_hd_1490_id209"
+        },
+        {
+          "id": 4567,
+          "name": "Коммерческий + Спорт (1149 руб.)_API id 1522",
+          "code": "smotreshka_commerchesky_plus_sport_1149r_id1522"
+        },
+        {
+          "id": 4566,
+          "name": "Коммерческий Лайт (299 руб.)_ API id 1520",
+          "code": "smotreshka_commerchesky_lite_299r_id1520"
+        },
+        {
+          "id": 4565,
+          "name": "Коммерческий (699 руб.)_ API id 1521",
+          "code": "smotreshka_commerchesky_699r_id1521"
+        },
+        {
+          "id": 4560,
+          "name": "Люкс + PREMIER (430 руб.)_API id 6010",
+          "code": "smotreshka_luxe_430r_premier"
+        },
+        {
+          "id": 4559,
+          "name": "Люкс + AMEDIATEKA (430 руб.)_API id 6016",
+          "code": "smotreshka_luxe_430r_amediateka"
+        },
+        {
+          "id": 4558,
+          "name": "Микс + PREMIER (330 руб.)_API id 6009",
+          "code": "smotreshka_mix_330r_premier"
+        },
+        {
+          "id": 4557,
+          "name": "Микс + Amediateka (330 руб.)_API id 6040",
+          "code": "smotreshka_mix_330r_amediateka"
+        },
+        {
+          "id": 4547,
+          "name": "Тестовый тариф смотрешки",
+          "code": "smotreshka_test_0r"
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "name": "Абонентская плата (ежемесячная)",
+      "code": "abon_pay_every_month",
+      "modes": [
+        {
+          "id": 4577,
+          "name": "Индексация_2025",
+          "code": "index_2025"
+        },
+        {
+          "id": 4550,
+          "name": "APN",
+          "code": "apn"
+        },
+        {
+          "id": 4549,
+          "name": "APN Доброцен",
+          "code": "apn_dobrocen"
+        },
+        {
+          "id": 4541,
+          "name": "Виртуальная машина",
+          "code": "virtual_machine"
+        },
+        {
+          "id": 4528,
+          "name": "Индексация_2024",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "name": "IP-TV (0 руб.)",
+      "code": "iptv_0rub",
+      "modes": [
+        {
+          "id": 4512,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "name": "Вместе.РФ (0 руб./мес.)",
+      "code": "all_iptv_vmeste_rf_0rub",
+      "modes": [
+        {
+          "id": 4469,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "name": "Абонентская плата за услуги DNS-фильтрации",
+      "code": "dnsfilter",
+      "modes": [
+        {
+          "id": 4587,
+          "name": "DNS_Дет.сад_библиотека(800 р./мес.)",
+          "code": "dnsfilter_kindergarten_library_800rub"
+        },
+        {
+          "id": 4586,
+          "name": "DNS_ВУЗ (2500 р./мес.)",
+          "code": "dnsfilter_university_2500rub"
+        },
+        {
+          "id": 4585,
+          "name": "DNS_Колледж (2000 р./мес.)",
+          "code": "dnsfilter_college_2000rub"
+        },
+        {
+          "id": 4584,
+          "name": "DNS_Школа (1500 р./мес.)",
+          "code": "dnsfilter_school_1500rub"
+        },
+        {
+          "id": 4582,
+          "name": "DNS_Дет.сад_библиотека(700 р./мес.)",
+          "code": "dnsfilter_kindergarten_library_500rub"
+        },
+        {
+          "id": 4460,
+          "name": "DNS-фильтр (500 р./мес.)",
+          "code": "all_dnsfilter_500rub"
+        },
+        {
+          "id": 4459,
+          "name": "DNS-фильтр «Школа» (350 р./мес.)",
+          "code": "dnsfilter_school_350rub"
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "name": "IPTV: 3-й Телевизор (0 руб.)",
+      "code": "all_iptv_plus3tv_0rub",
+      "modes": [
+        {
+          "id": 4451,
+          "name": "Базовый",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "name": "IPTV: 2-й Телевизор (0 руб.)",
+      "code": "all_iptv_plus2tv_0rub",
+      "modes": [
+        {
+          "id": 4450,
+          "name": "Базовый",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "name": "Приложение SMART (30 руб.)",
+      "code": "application_smart_30rub",
+      "modes": [
+        {
+          "id": 4449,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "name": "ТВ 220",
+      "code": "tv_220",
+      "modes": [
+        {
+          "id": 4342,
+          "name": "Обычный",
+          "code": "tv_220_normal"
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "name": "Видеонаблюдение (ежемесячная)",
+      "code": "video_observation",
+      "modes": [
+        {
+          "id": 4260,
+          "name": "Видео 250 рублей",
+          "code": "video_observation_250rub"
+        },
+        {
+          "id": 4259,
+          "name": "Видео 300 рублей",
+          "code": "video_observation_300rub"
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "name": "Кинотеатр (ежемесячная)",
+      "code": "cinema_monthly",
+      "modes": [
+        {
+          "id": 4295,
+          "name": "IVI 0 рублей",
+          "code": "ivi_free"
+        },
+        {
+          "id": 4197,
+          "name": "IVI 300 рублей",
+          "code": "ivi_300rub"
+        },
+        {
+          "id": 4196,
+          "name": "IVI 250 рублей",
+          "code": "ivi_250rub"
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "name": "Доставка документов (ежемесячная)",
+      "code": "delivery_of_docs",
+      "modes": [
+        {
+          "id": 4194,
+          "name": "Доставка счета Почтой России – 70 руб./мес.",
+          "code": null
+        },
+        {
+          "id": 4193,
+          "name": "Доставка счета курьером – 100 руб./мес.",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "name": "Приложение SMART (10 руб.)",
+      "code": "application_smart_10rub",
+      "modes": [
+        {
+          "id": 4187,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "name": "Абонентская плата телефония (внешняя линия)",
+      "code": "abon_payment_voip_external_line",
+      "modes": [
+        {
+          "id": 4168,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "name": "Абонентская плата телефония (внутренняя линия)",
+      "code": "abon_payment_voip_internal_line",
+      "modes": [
+        {
+          "id": 4167,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "name": "Великий Новгород: IP TV: Великий Новгород +2й ТВ (120 руб)",
+      "code": "vn_iptv_plus2tv",
+      "modes": [
+        {
+          "id": 4107,
+          "name": "Базовый",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "name": "ТВ на мобильном устройстве 50 руб",
+      "code": "mobile_tv_50rub",
+      "modes": [
+        {
+          "id": 4105,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "name": "Великий Новгород: IP TV",
+      "code": "vnov_iptv",
+      "modes": [
+        {
+          "id": 4101,
+          "name": "Базовый",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "name": "IP-TV для юр. лиц",
+      "code": "iptv_jur",
+      "modes": [
+        {
+          "id": 4603,
+          "name": "Гостиница (400 руб)",
+          "code": "iptv_jur_b2b_hotel_400_rub"
+        },
+        {
+          "id": 4353,
+          "name": "Стандарт (500 руб.)",
+          "code": "iptv_jur_b2b_standard_500rub"
+        },
+        {
+          "id": 4352,
+          "name": "Лайт (350 руб.)",
+          "code": "iptv_jur_b2b_light_350rub"
+        },
+        {
+          "id": 4100,
+          "name": "Базовый",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "name": "Видеоконтроль",
+      "code": "video_monitoring",
+      "modes": [
+        {
+          "id": 4619,
+          "name": "Внутр_камера_14 дней хранения (700 руб.)",
+          "code": null
+        },
+        {
+          "id": 4600,
+          "name": "Видеоконтроль (free price)",
+          "code": null
+        },
+        {
+          "id": 4532,
+          "name": "РОСАЛ_30 дней хранения (1150 руб.)",
+          "code": "rosal_30_day_hraneniya_1150rub"
+        },
+        {
+          "id": 4530,
+          "name": "Метротрамвай_90 дней хранения (3150 руб.)",
+          "code": "metrotamvay_90_day_hraneniya_3150rub"
+        },
+        {
+          "id": 4489,
+          "name": "Гранит_365 дней хранения (10600 руб.)",
+          "code": null
+        },
+        {
+          "id": 4486,
+          "name": "РОСАЛ_30 дней хранения (600 руб.)",
+          "code": null
+        },
+        {
+          "id": 4389,
+          "name": "Видеоаналитика_Автоматический подсчет посетителей (900 руб.)",
+          "code": "vnalytics_acv_900rub"
+        },
+        {
+          "id": 4388,
+          "name": "Видеоаналитика_Детектор маски (900 руб.)",
+          "code": "vnalytics_mask_detector_900rub"
+        },
+        {
+          "id": 4387,
+          "name": "Видеоаналитика_Детектор падений (1800 руб.)",
+          "code": "vnalytics_falls_detect_1800rub"
+        },
+        {
+          "id": 4386,
+          "name": "Видеоаналитика_Детектор праздношатания (900 руб.)",
+          "code": "vnalytics_loiter_detect_900rub"
+        },
+        {
+          "id": 4385,
+          "name": "Видеоаналитика_Детектор предметов (900 руб.)",
+          "code": "vnalytics_items_detect_900rub"
+        },
+        {
+          "id": 4384,
+          "name": "Видеоаналитика_Детекция очередей (1300 руб.)",
+          "code": "vnalytics_queue_detect_1300rub"
+        },
+        {
+          "id": 4383,
+          "name": "Видеоаналитика_Отслеживание движения глаз (5000 руб.)",
+          "code": "vnalytics_eye_tracking_5000rub"
+        },
+        {
+          "id": 4382,
+          "name": "Видеоаналитика_Перехват по фото (3000 руб.)",
+          "code": "vnalytics_inter_photo_3000rub"
+        },
+        {
+          "id": 4381,
+          "name": "Видеоаналитика_Работа со светофорами (900 руб.)",
+          "code": "vnalytics_wwtlights_900rub"
+        },
+        {
+          "id": 4380,
+          "name": "Видеоаналитика_Распознавание автономеров (3500 руб.)",
+          "code": "vnalytics_anrecognition_3500rub"
+        },
+        {
+          "id": 4379,
+          "name": "Видеоаналитика_Распознавание возраста (1500 руб.)",
+          "code": "vnalytics_arecognition_1500rub"
+        },
+        {
+          "id": 4378,
+          "name": "Видеоаналитика_Распознавание звуков (900 руб.)",
+          "code": "vnalytics_srecognition_900rub"
+        },
+        {
+          "id": 4377,
+          "name": "Видеоаналитика_Распознавание пола (900 руб.)",
+          "code": "vnalytics_grecognition_900rub"
+        },
+        {
+          "id": 4376,
+          "name": "Видеоаналитика_Распознавание текста (900 руб.)",
+          "code": "vnalytics_trecognition_900rub"
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "name": "Приостановка обслуживания",
+      "code": "stop_service",
+      "modes": [
+        {
+          "id": 4045,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "name": "ТВ (0 руб.)",
+      "code": "tv_0rub",
+      "modes": [
+        {
+          "id": 4043,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "name": "Приложение SMART",
+      "code": "application_smart",
+      "modes": [
+        {
+          "id": 4038,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "name": "Роутер абонента",
+      "code": "abon_router",
+      "modes": [
+        {
+          "id": 4035,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "name": "ТВ 158",
+      "code": "tv_158",
+      "modes": [
+        {
+          "id": 3974,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "name": "Возврат ДС абоненту",
+      "code": "return_ds_subscriber",
+      "modes": [
+        {
+          "id": 3964,
+          "name": "Обычный",
+          "code": "normal_return_ds_subscriber"
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "name": "ТВ 250",
+      "code": "tv_250",
+      "modes": [
+        {
+          "id": 3916,
+          "name": "Обычный",
+          "code": "tv_250_normal"
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "name": "Предоставление в пользование",
+      "code": "granting_for_use",
+      "modes": [
+        {
+          "id": 3823,
+          "name": "Точка доступа",
+          "code": "granting_for_use_access_point"
+        },
+        {
+          "id": 3822,
+          "name": "Физическое соединение",
+          "code": "granting_for_use_physical_connection"
+        },
+        {
+          "id": 3821,
+          "name": "Цифровой поток",
+          "code": "granting_for_use_digital_flow"
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "name": "Рабочий стол",
+      "code": "work_table",
+      "modes": [
+        {
+          "id": 3617,
+          "name": "VDI-MicrosoftOffice (1625 rub)",
+          "code": "work_table_vdi_microsoft_office_1625r"
+        },
+        {
+          "id": 3616,
+          "name": "VDI-LibreOffice (650 rub)",
+          "code": "work_table_vdi_libreoffice_650r"
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "name": "Виртуальный сервер",
+      "code": "virtual_server",
+      "modes": [
+        {
+          "id": 3613,
+          "name": "SPrimeKVM (9299 rub)",
+          "code": "virtual_server_sprimekvm_9299r"
+        },
+        {
+          "id": 3612,
+          "name": "PrimeKVM (4949 rub)",
+          "code": "virtual_server_primekvm_4949r"
+        },
+        {
+          "id": 3611,
+          "name": "MegaKVM (1949 rub)",
+          "code": "virtual_server_megakvm_1949r"
+        },
+        {
+          "id": 3610,
+          "name": "WaveKVM (879 rub)",
+          "code": "virtual_server_wavekvm_879r"
+        },
+        {
+          "id": 3609,
+          "name": "GearKVM (489 rub)",
+          "code": "virtual_server_gearkvm_489r"
+        },
+        {
+          "id": 3608,
+          "name": "StartKVM (229 rub) ",
+          "code": "virtual_server_startkvm_229r"
+        },
+        {
+          "id": 3607,
+          "name": "SPrimeWin (12000 rub)",
+          "code": "virtual_server_sprimewin_12000r"
+        },
+        {
+          "id": 3606,
+          "name": "PrimeWin (7150 rub)",
+          "code": "virtual_server_primewin_7150r"
+        },
+        {
+          "id": 3605,
+          "name": "MegaWin (3500 rub)",
+          "code": "virtual_server_megawin_3500r"
+        },
+        {
+          "id": 3604,
+          "name": "WaveWin (2000 rub) ",
+          "code": "virtual_server_wavetwin_2000r"
+        },
+        {
+          "id": 3603,
+          "name": "StartWin (485 rub)",
+          "code": "virtual_server_startwin_485r"
+        },
+        {
+          "id": 3602,
+          "name": "GearWin (900 rub)",
+          "code": "virtual_server_gearwin_900r"
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "name": "В.Новгород: IPTV",
+      "code": "vn_iptv",
+      "modes": [
+        {
+          "id": 4614,
+          "name": "Базовый (250 руб.)",
+          "code": "vn_iptv_basic_250"
+        },
+        {
+          "id": 3556,
+          "name": "B2B Наш футбол HD (250 руб)",
+          "code": "b2b_our_football_hd"
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "name": "Wi-Fi Hotspot",
+      "code": "wi_fi_hotspot",
+      "modes": [
+        {
+          "id": 4624,
+          "name": "Регистрация по купону(2500)",
+          "code": "wi_fi_hotspot_regist_coupon_b2b_2500rub"
+        },
+        {
+          "id": 4506,
+          "name": "flyLogin (free price)",
+          "code": "wi_fi_flylogin_b2b_free"
+        },
+        {
+          "id": 4462,
+          "name": "flyAir (4300 руб./мес)",
+          "code": "wi_fi_flyair_b2b_4300rub"
+        },
+        {
+          "id": 3939,
+          "name": "flyLogin start (700 руб.)",
+          "code": "wi_fi_hotspot_700r"
+        },
+        {
+          "id": 3938,
+          "name": "flyLogin start (1000 руб.)",
+          "code": "wi_fi_hotspot_1000r"
+        },
+        {
+          "id": 3937,
+          "name": "flyLogin (2200 руб.)",
+          "code": "wi_fi_hotspot_2200r"
+        },
+        {
+          "id": 3936,
+          "name": "flyAir (4990 руб.)",
+          "code": "wi_fi_hotspot_4990r"
+        },
+        {
+          "id": 3433,
+          "name": "Особый",
+          "code": "wi_fi_hotspot_special"
+        },
+        {
+          "id": 3432,
+          "name": "Обычный",
+          "code": "wi_fi_hotspot_normal"
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "name": "Услуга Хостинга",
+      "code": "usl_hosting",
+      "modes": [
+        {
+          "id": 3429,
+          "name": "СПб Бизнес 4ГБ (420 руб.)",
+          "code": "usl_hosting_spb_business_420r"
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "name": "Челябинск: Видеонаблюдение",
+      "code": "chel_videoview",
+      "modes": [
+        {
+          "id": 3412,
+          "name": "Особый",
+          "code": "chel_videoview_special"
+        },
+        {
+          "id": 3411,
+          "name": "Обычный",
+          "code": "chel_videoview_normal"
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "name": "Авторизация пользователей Wi-Fi",
+      "code": "authorization_users_wifi",
+      "modes": [
+        {
+          "id": 3595,
+          "name": "Череповец (500руб.)",
+          "code": "authorization_users_cher_wifi_500rub"
+        },
+        {
+          "id": 3410,
+          "name": "Обычный",
+          "code": "authorization_users_wifi_normal"
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "name": "Услуга Автоинформирования",
+      "code": "usl_autoinform",
+      "modes": [
+        {
+          "id": 3402,
+          "name": "Услуга Автоинформирования",
+          "code": "usl_autoinform_normal"
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "name": "Челябинск: Абонентская плата за услуги DNS-фильтрации",
+      "code": "chel.dnsfilter",
+      "modes": [
+        {
+          "id": 3898,
+          "name": "Челябинск DNS-фильтр (450 р./мес.)",
+          "code": "chel.dnsfilter450"
+        },
+        {
+          "id": 3316,
+          "name": "Челябинск DNS-фильтр “Школа» (250 р./мес.)",
+          "code": "chel.dnsfilter250"
+        },
+        {
+          "id": 3315,
+          "name": "Челябинск DNS-фильтр “Школа» (350 р./мес.)",
+          "code": "chel.dnsfilter350"
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "name": "Организация и обслуживание каналов связи (ежемесячная)",
+      "code": "organiz_main_comm_channels",
+      "modes": [
+        {
+          "id": 3362,
+          "name": "Аренда оптического волокна",
+          "code": "mode_rent_optic_fiber"
+        },
+        {
+          "id": 3361,
+          "name": "Услуга местного завершения вызова на сеть Оператора",
+          "code": "mode_local_call_term_oper"
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "name": "Особые",
+      "code": "special",
+      "modes": [
+        {
+          "id": 3321,
+          "name": "Аренда оптического волокна",
+          "code": null
+        },
+        {
+          "id": 3320,
+          "name": "Услуга местного завершения вызова на сеть Оператора",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "name": "СПб: IPTV",
+      "code": "spb_iptv",
+      "modes": [
+        {
+          "id": 3318,
+          "name": "Базовый VIP",
+          "code": null
+        },
+        {
+          "id": 3314,
+          "name": "IPTV: Телеканал Дождь (240 руб)",
+          "code": null
+        },
+        {
+          "id": 3283,
+          "name": "СПб: IPTV Лайт",
+          "code": null
+        },
+        {
+          "id": 3249,
+          "name": "Базовый моно",
+          "code": null
+        },
+        {
+          "id": 3248,
+          "name": "Базовый",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "name": "Череповец: КТВ Народный (100 рублей)",
+      "code": "cher_ktv_narod",
+      "modes": [
+        {
+          "id": 3224,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "name": "Новгород: КТВ Народный (100 рублей)",
+      "code": "vnov_ktv_narod",
+      "modes": [
+        {
+          "id": 3223,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Череповец: IPTV",
+      "code": "cher_iptv_0r",
+      "modes": [
+        {
+          "id": 4613,
+          "name": "Базовый (250 руб.)",
+          "code": "cher_iptv_0r_basic_250"
+        },
+        {
+          "id": 4299,
+          "name": "Председатель (0 руб.)",
+          "code": null
+        },
+        {
+          "id": 3313,
+          "name": "IPTV: Телеканал Дождь (240 руб)",
+          "code": null
+        },
+        {
+          "id": 3245,
+          "name": "IZET IPTV: Череповец +2й ТВ (120 руб)",
+          "code": null
+        },
+        {
+          "id": 3221,
+          "name": "Базовый",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Переоформление Договора",
+      "code": "renewal_contract",
+      "modes": [
+        {
+          "id": 3207,
+          "name": "Z-Phone",
+          "code": "zphone_renewal_contract_serv"
+        },
+        {
+          "id": 3206,
+          "name": "Z-TV кабельное",
+          "code": "ztv_renewal_contract_serv"
+        },
+        {
+          "id": 3205,
+          "name": "Интернет",
+          "code": "internet_renewal_contract_serv"
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "name": "Челябинск: IPTV",
+      "code": "chel_iptv",
+      "modes": [
+        {
+          "id": 4612,
+          "name": "Базовый (250 руб.)",
+          "code": "chel_iptv_basic_250"
+        },
+        {
+          "id": 3783,
+          "name": "IPTV +2йТВ на ПК (75 руб/мес)",
+          "code": null
+        },
+        {
+          "id": 3312,
+          "name": "IPTV: Телеканал Дождь (240 руб)",
+          "code": null
+        },
+        {
+          "id": 3265,
+          "name": "IZET IPTV: Челябинск +2й ТВ (0 руб)",
+          "code": null
+        },
+        {
+          "id": 3184,
+          "name": "IZET IPTV: Челябинск +2й ТВ (120 руб)",
+          "code": null
+        },
+        {
+          "id": 3168,
+          "name": "Базовый",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "name": "Ярославль: IPTV",
+      "code": "yar_iptv",
+      "modes": [
+        {
+          "id": 4615,
+          "name": "Базовый (250 руб.)",
+          "code": "yar_iptv_basic_250"
+        },
+        {
+          "id": 3724,
+          "name": "Базовый льготный – 0 руб./мес",
+          "code": "basic_free_0r"
+        },
+        {
+          "id": 3311,
+          "name": "IPTV: Телеканал Дождь (240 руб)",
+          "code": null
+        },
+        {
+          "id": 3264,
+          "name": "IZET IPTV: Ярославль +2й ТВ (0 руб)",
+          "code": null
+        },
+        {
+          "id": 3185,
+          "name": "IZET IPTV: Ярославль +2й ТВ (120 руб)",
+          "code": null
+        },
+        {
+          "id": 3167,
+          "name": "Базовый",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "name": "В.Новгород: КТВ Ветеран (0 руб)",
+      "code": "vnov_ktv_veteran_0r",
+      "modes": [
+        {
+          "id": 3084,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "name": "Череповец: КТВ Ветеран (0 руб)",
+      "code": "cher_ktv_veteran_0r",
+      "modes": [
+        {
+          "id": 3083,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "name": "Череповец: КТВ Весенний (200 руб)",
+      "code": "ktv_cher_sprin_200",
+      "modes": [
+        {
+          "id": 3050,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "name": "В.Новгород: КТВ Весенний (200 руб)",
+      "code": "ktv_vnov_sprin_200",
+      "modes": [
+        {
+          "id": 3049,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "name": "IZET Новгород/Череповец: HD (доп. к Цифровому) (110 руб.)",
+      "code": "cktv_nov_cher_hd_110r",
+      "modes": [
+        {
+          "id": 2990,
+          "name": "Обычный",
+          "code": "cktv_nov_cher_hd_110r_common"
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "name": "IZET Новгород/Череповец: ЦКТВ + КТВ (2-й) (0 руб.)",
+      "code": "izet_cktv+ktv_2_0r",
+      "modes": [
+        {
+          "id": 2979,
+          "name": "Обычный",
+          "code": "mode_izet_cktv+ktv_2_0r_common"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "name": "КТВ 2-ой ТВ (120 р.)",
+      "code": "cktv_nov_cher_2tv_120r",
+      "modes": [
+        {
+          "id": 2974,
+          "name": "Обычный",
+          "code": "cktv_nov_cher_2tv_120r_common"
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "name": "IZET ЦКТВ: стоимость абонентской линии (50 р./м.)",
+      "code": "cktv_abon_line_50r",
+      "modes": [
+        {
+          "id": 2970,
+          "name": "Обычный",
+          "code": "cktv_abon_line_50r_common"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "name": "IZET ЦКТВ: Цифровой 'Пакет HD(220)'",
+      "code": "cktv_hd",
+      "modes": [
+        {
+          "id": 2946,
+          "name": "Обычный",
+          "code": "cktv_hd_common"
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "name": "IZET ЦКТВ: Цифровой 'Для взрослых(150)'",
+      "code": "cktv_pron",
+      "modes": [
+        {
+          "id": 2945,
+          "name": "Обычный",
+          "code": "cktv_pron_common"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "name": "IZET ЦКТВ: Цифровой 'Наш футбол HD(149)'",
+      "code": "cktv_football",
+      "modes": [
+        {
+          "id": 2944,
+          "name": "Обычный",
+          "code": "cktv_football_common"
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "name": "IZET ЦКТВ: Цифровой 'НТВ Плюс(380)'",
+      "code": "cktv_ntv",
+      "modes": [
+        {
+          "id": 2943,
+          "name": "Обычный",
+          "code": "cktv_ntv_common"
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "name": "IZET ЦКТВ: Цифровой 'Amedia(99)'",
+      "code": "cktv_amedia",
+      "modes": [
+        {
+          "id": 2942,
+          "name": "Обычный",
+          "code": "cktv_amedia_common"
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "name": "IZET ЦКТВ: Цифровой (В.Новгород,240)",
+      "code": "cktv_common_novgorod",
+      "modes": [
+        {
+          "id": 2941,
+          "name": "Обычный",
+          "code": "cktv_novgorod_common"
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "name": "IZET ЦКТВ: Цифровой (Череповец,250)",
+      "code": "cktv_common_cherep",
+      "modes": [
+        {
+          "id": 2940,
+          "name": "Обычный",
+          "code": "cktv_cherep_common"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "name": "ТВ (200)",
+      "code": "cktv_plus_inet",
+      "modes": [
+        {
+          "id": 4591,
+          "name": "Blue Hustler (50 руб./мес.)",
+          "code": "blue_hustler_ctv_50rub"
+        },
+        {
+          "id": 4590,
+          "name": "Barely Legal (50 руб./мес.)",
+          "code": "barely_legel_ctv_50rub"
+        },
+        {
+          "id": 4537,
+          "name": "Дорама HD (70 руб/мес)",
+          "code": "dorama_hd_ctv_70rub"
+        },
+        {
+          "id": 4419,
+          "name": "Матч!Футбол (380 руб./мес.)",
+          "code": "match_futbol_ctv_380rub"
+        },
+        {
+          "id": 4418,
+          "name": "Русская ночь (50 руб/мес)",
+          "code": "russkaja_noch_ctv_50rub"
+        },
+        {
+          "id": 4023,
+          "name": "Приложение SMART",
+          "code": "application_smart"
+        },
+        {
+          "id": 3934,
+          "name": "Матч-Премьер 299",
+          "code": "match_premier_ctv_299r"
+        },
+        {
+          "id": 3752,
+          "name": "Великий Новгород: КТВ льготный (130 руб/мес)",
+          "code": "vn_ctv_130r"
+        },
+        {
+          "id": 3425,
+          "name": "Великий Новгород: КТВ для юрлица (1000 руб)",
+          "code": "vn_ctv_yur_1000r"
+        },
+        {
+          "id": 3424,
+          "name": "Великий Новгород: КТВ для юрлица (5310 руб)",
+          "code": "vn_ctv_yur_5310r"
+        },
+        {
+          "id": 3423,
+          "name": "Великий Новгород: КТВ для юрлица (10000 руб)",
+          "code": "vn_ctv_yur_10000r"
+        },
+        {
+          "id": 3383,
+          "name": "IZET ТВ - 2,3-й ТВ (0 руб)",
+          "code": "izet_2_3_tv"
+        },
+        {
+          "id": 3310,
+          "name": "IZET Новгород/Череповец: телеканал Дождь (240 руб)",
+          "code": null
+        },
+        {
+          "id": 2939,
+          "name": "Обычный",
+          "code": "cktv_plus_inet_common"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "name": "Инстал",
+      "code": "install",
+      "modes": [
+        {
+          "id": 4474,
+          "name": "Гостевой Wi-Fi (2000 руб.)",
+          "code": "install_guest_wifi_b2b_2000rub"
+        },
+        {
+          "id": 4098,
+          "name": "Видеоконтроль",
+          "code": "install_video_control"
+        },
+        {
+          "id": 2800,
+          "name": "Z-Phone",
+          "code": "zphone_install_serv"
+        },
+        {
+          "id": 2799,
+          "name": "Z-TV кабельное",
+          "code": "ztv_install_serv"
+        },
+        {
+          "id": 2798,
+          "name": "Интернет",
+          "code": "internet_install_serv"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "name": "Z-TV (кабельное-цифровое)",
+      "code": "kabelnoe_cifrovoe",
+      "modes": [
+        {
+          "id": 2793,
+          "name": "Комплект: Ресивер Rolsen RDB - 402 + CAM",
+          "code": "komplect_rolsenrdb_402"
+        },
+        {
+          "id": 2792,
+          "name": "Ресивер Rolsen RDB - 402",
+          "code": "rolsen_rdb_402"
+        },
+        {
+          "id": 2789,
+          "name": "Инстал",
+          "code": "install_ztv"
+        },
+        {
+          "id": 2786,
+          "name": "ZTV CAM 2 (1000 руб.)",
+          "code": "ztvcam21000r"
+        },
+        {
+          "id": 2785,
+          "name": "ZTV CAM 1 (1400 руб.)",
+          "code": "ztvcam11400r"
+        },
+        {
+          "id": 2784,
+          "name": "В.Новгород Цифровой \"A-МЕДИА\" ( 99 руб.)",
+          "code": "vn_cifro_amedia99r"
+        },
+        {
+          "id": 2783,
+          "name": "В.Новгород Цифровой \"VIASAT HD премиум\" (400 руб.)",
+          "code": "vn_cifro_viasat400r"
+        },
+        {
+          "id": 2782,
+          "name": "В.Новгород Цифровой \"Для взрослых\" (350 руб.)",
+          "code": "vn_cifro_adult350r"
+        },
+        {
+          "id": 2781,
+          "name": "В.Новгород Цифровой \"Наш Футбол HD\" (149 руб.)",
+          "code": "vn_cifro_foot149r"
+        },
+        {
+          "id": 2780,
+          "name": "В.Новгород Цифровой \"HD Базовый\" ( 290 руб. )",
+          "code": "vn_cifro_hd290r"
+        },
+        {
+          "id": 2779,
+          "name": "В.Новгород Цифровой Эфирный+ (0 руб.)",
+          "code": "vn_cifro_efir0r"
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Подписка на ПО",
+      "code": "rentsoft",
+      "modes": [
+        {
+          "id": 2762,
+          "name": "Image Converter 2.1",
+          "code": "soft4boost_image_convverter21"
+        },
+        {
+          "id": 2761,
+          "name": "Advanced SystemCare Ultimate (с Антивирусом)",
+          "code": "advanced_systemcare_u_e69cca56"
+        },
+        {
+          "id": 2760,
+          "name": "Звонок с сайта",
+          "code": "zingaya_20p_disc"
+        },
+        {
+          "id": 2759,
+          "name": "Outpost Security Suite Service",
+          "code": "outpost_security_suite_pro_interzet"
+        },
+        {
+          "id": 2758,
+          "name": "Фото Слайд-Шоу",
+          "code": "photo_slideshow"
+        },
+        {
+          "id": 2757,
+          "name": "Домашняя бухгалтерия",
+          "code": "keepsoft_homebuh"
+        },
+        {
+          "id": 2756,
+          "name": "Trend Micro Titanium Internet Security 2012",
+          "code": "trendmicro_titanium_internet_security_2011"
+        },
+        {
+          "id": 2755,
+          "name": "Panda Antivirus Pro 2013",
+          "code": "panda_antivirus_pro_2012"
+        },
+        {
+          "id": 2754,
+          "name": "Мегаплан — Бизнес-Менеджер",
+          "code": "megaplan_business_manager"
+        },
+        {
+          "id": 2753,
+          "name": "DVD Cloner 2.1",
+          "code": "dvd_cloner_21_40"
+        },
+        {
+          "id": 2752,
+          "name": "ABBYY Lingvo х5 «9 языков»",
+          "code": "abbyy_lingvo_x5_9langs"
+        },
+        {
+          "id": 2751,
+          "name": "Все игры",
+          "code": "alawar_all-games"
+        },
+        {
+          "id": 2750,
+          "name": "Звонок с сайта",
+          "code": "zingaya_a2a95807"
+        },
+        {
+          "id": 2749,
+          "name": "Photo Studio 3.3",
+          "code": "soft4boost_photo_stud_153f040f"
+        },
+        {
+          "id": 2748,
+          "name": "PC Win Booster 6.4",
+          "code": "pc_win_booster"
+        },
+        {
+          "id": 2747,
+          "name": "PC Win Booster 5.1",
+          "code": "pc_win_booster_826902f9"
+        },
+        {
+          "id": 2746,
+          "name": "ABBYY FineReader 10 Home Edition",
+          "code": "abbyy_finereader_10_home_edition"
+        },
+        {
+          "id": 2745,
+          "name": "ABBYY FineReader 10 Home Edition",
+          "code": "abbyy_finereader_10_home_edition_89"
+        },
+        {
+          "id": 2744,
+          "name": "ABBYY Lingvo х5 «Английский язык»",
+          "code": "abbyy_lingvo_x5_en"
+        },
+        {
+          "id": 2743,
+          "name": "ABBYY PDF Transformer 3.0",
+          "code": "abbyy_pdf_transformer_89_jur"
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Абонентская плата",
+      "code": "abon_plata",
+      "modes": [
+        {
+          "id": 4257,
+          "name": "Корректировка (0.01 р.)",
+          "code": "korrektirovka_0.1r"
+        },
+        {
+          "id": 3476,
+          "name": "Видеонаблюдение ",
+          "code": "abon_plata_video"
+        },
+        {
+          "id": 3475,
+          "name": "АТС виртуальная",
+          "code": "abon_plata_atc_virtual"
+        },
+        {
+          "id": 3474,
+          "name": "Телефонная линия",
+          "code": "abon_plata_voip_line"
+        },
+        {
+          "id": 3473,
+          "name": "Аренда оборудования кроме роутеров и приставок",
+          "code": "abon_plata_rent_not_router_iptv_stb"
+        },
+        {
+          "id": 3472,
+          "name": "Аренда IP-TV приставки",
+          "code": "abon_plata_rent_iptv_stb"
+        },
+        {
+          "id": 3471,
+          "name": "Аренда Wi-Fi роутера",
+          "code": "abon_plata_rent_wifi_router"
+        },
+        {
+          "id": 3470,
+          "name": "Услуга IP-TV",
+          "code": "abon_plata_srv_iptv"
+        },
+        {
+          "id": 3469,
+          "name": "Услуга КТВ ",
+          "code": "abon_plata_srv_ctv"
+        },
+        {
+          "id": 3468,
+          "name": "Аренда ВОЛС",
+          "code": "abon_plata_rent_volc"
+        },
+        {
+          "id": 3467,
+          "name": "Предоставление КПД",
+          "code": "abon_plata_kpd"
+        },
+        {
+          "id": 3466,
+          "name": "Аренда IP-адреса ",
+          "code": "abon_plata_rent_ip"
+        },
+        {
+          "id": 3465,
+          "name": "Доступ в интернет",
+          "code": "abon_plata_dostup_inet"
+        },
+        {
+          "id": 2868,
+          "name": "Череповец DNS-фильтр 'ШКОЛА' (350р./м.)",
+          "code": "cher.dnsfilter.school_350r"
+        },
+        {
+          "id": 3,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "name": "В. Новгород Эфирный + 3-й и 4-й ТВ",
+      "code": "vnov_3_4_tv",
+      "modes": [
+        {
+          "id": 1427,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "В. Новгород Эфирный + 3-й и 4-й ТВ  + Интернет",
+      "code": "vnov_3_4_inet",
+      "modes": [
+        {
+          "id": 1426,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Череповец + 3-й и 4-й ТВ + Интернет",
+      "code": "cher_3_4_inet",
+      "modes": [
+        {
+          "id": 1425,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Череповец + 3-й и 4-й ТВ",
+      "code": "cher_3_4_tv",
+      "modes": [
+        {
+          "id": 1424,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Новгород: КТВ: СПОРТ 1 (300 руб.)",
+      "code": "nov_ktv_sport1300",
+      "modes": [
+        {
+          "id": 1423,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Новгород: КТВ: FTV (100 руб.)",
+      "code": "nov_ktv_ftv100",
+      "modes": [
+        {
+          "id": 1422,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Новгород: КТВ: Евроспорт (200 руб.)",
+      "code": "nov_ktv_eurosport200",
+      "modes": [
+        {
+          "id": 1421,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Череповец: КТВ: Евроспорт (200 руб.)",
+      "code": "cher_ktv_eurosport200",
+      "modes": [
+        {
+          "id": 1420,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Череповец: КТВ: СПОРТ 1 (300 руб.)",
+      "code": "cher_ktv_sport1300",
+      "modes": [
+        {
+          "id": 1419,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Череповец: КТВ: FTV (100 руб.)",
+      "code": "cher_ktv_ftv100",
+      "modes": [
+        {
+          "id": 1418,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Льготная аренда оборудования (роутер)",
+      "code": "router10",
+      "modes": [
+        {
+          "id": 1417,
+          "name": "Обычный",
+          "code": "router10_mode"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Внешний IP (Бесплатно)",
+      "code": "externip",
+      "modes": [
+        {
+          "id": 1416,
+          "name": "Обычный",
+          "code": "externip_mode"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Почтовый ящик 50 Мб(Бесплатно)",
+      "code": "email",
+      "modes": [
+        {
+          "id": 1415,
+          "name": "Обычный",
+          "code": "email_mode"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Турбокнопка",
+      "code": "turbo_button",
+      "modes": [
+        {
+          "id": 2796,
+          "name": "2 часа",
+          "code": "turbo_button_2h"
+        },
+        {
+          "id": 2795,
+          "name": "1 час",
+          "code": "turbo_button_1h"
+        },
+        {
+          "id": 2794,
+          "name": "30 мин",
+          "code": "turbo_button_30m"
+        },
+        {
+          "id": 1414,
+          "name": "6 часов",
+          "code": null
+        },
+        {
+          "id": 1413,
+          "name": "3 часа",
+          "code": null
+        },
+        {
+          "id": 1412,
+          "name": "1 час",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Череповец: КТВ Народный + (70 руб.)",
+      "code": "cher_ktv_narod70",
+      "modes": [
+        {
+          "id": 1410,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Новгород: КТВ Народный + (70 руб.)",
+      "code": "nov_ktv_narod70",
+      "modes": [
+        {
+          "id": 1409,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Новгород: КТВ: Эфирный+ (180 руб.)",
+      "code": "nov_ktv_efir180",
+      "modes": [
+        {
+          "id": 1408,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Череповец: КТВ: Эфирный+ (180 руб.)",
+      "code": "cher_ktv_efir180",
+      "modes": [
+        {
+          "id": 1407,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Череповец: КТВ Интернет + Народный(50 руб.)",
+      "code": "cher_ktv_inet_narod",
+      "modes": [
+        {
+          "id": 1406,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Новгород: КТВ: Народный+Интернет (50руб.)",
+      "code": "nov_ktv_inet_narod",
+      "modes": [
+        {
+          "id": 1405,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Череповец: КТВ: Эфирный+Интернет (150 руб.)",
+      "code": "chr_ktv_ether_inet_180",
+      "modes": [
+        {
+          "id": 1388,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Новгород: КТВ: Эфирный+Интернет (150 руб.)",
+      "code": "vn_ktv_ether_inet_180",
+      "modes": [
+        {
+          "id": 1387,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Продажа оборудования в рассрочку",
+      "code": "pay_part",
+      "modes": [
+        {
+          "id": 4574,
+          "name": "MikroTik SXT LTE6 kit (2023  (11 месяцев 236 руб. первый взнос)",
+          "code": "pay_part_mikroTik_11month_236rub"
+        },
+        {
+          "id": 4562,
+          "name": "IP-видеокамера в рассрочку - 900 руб. (12 месяца, 900 руб. первый взнос)",
+          "code": "pay_part_ip_cam_12month_900rub"
+        },
+        {
+          "id": 4553,
+          "name": "MikroTik SXT LTE6 kit в рассрочку - 840 руб. (11 месяца, 9250 руб. первый взнос)",
+          "code": "pay_part_mikrotik_11month_840rub"
+        },
+        {
+          "id": 4552,
+          "name": "Huawei b311-221 в рассрочку - 236 руб. (11 месяца, 2587 руб. первый взнос)",
+          "code": "pay_part_huawei_11month_236rub"
+        },
+        {
+          "id": 4502,
+          "name": "IP-видеокамера внешняя в рассрочку – 1500 руб. (11 месяца, 1500 руб. первый взнос)",
+          "code": "pay_part_ip_cam_11month_1500rub"
+        },
+        {
+          "id": 4485,
+          "name": "IP-видеокамера в рассрочку – 550 руб. (23 месяца, 550 руб. первый взнос)",
+          "code": "pay_part_ip_cam_23month_550rub"
+        },
+        {
+          "id": 4467,
+          "name": "Роутер 5 ГГц_рассрочка_550 руб. (11 мес., 550 руб. 1-ый взнос)",
+          "code": "pay_part_router_5hhz_11mon_550r"
+        },
+        {
+          "id": 4354,
+          "name": "IP-видеокамера внешняя в рассрочку – 450 руб. (23 месяца, 450 руб. первый взнос)",
+          "code": "pay_part_ip_cam_23month_450rub"
+        },
+        {
+          "id": 4333,
+          "name": "Роутер 5 ГГц рассрочка 360 руб. (11 мес., 360 руб. 1-ый взнос)",
+          "code": "pay_part_router_5hhz_11month_360rub"
+        },
+        {
+          "id": 4332,
+          "name": "Роутер 2,4 ГГц рассрочка 300 руб. (11 мес., 300 руб. 1-й взнос)",
+          "code": "pay_part_router_2_4hhz_11month_300rub"
+        },
+        {
+          "id": 4288,
+          "name": "IP-видеокамера в рассрочку – 300 руб. (23 месяца, 300 руб. первый взнос)",
+          "code": "pay_part_ip_cam_23month_300rub"
+        },
+        {
+          "id": 4283,
+          "name": "IPTV приставка в рассрочку – 500 руб. (11 месяцев, 500 руб. первый взнос)",
+          "code": "pay_part_ip_tv_11month_500rub"
+        },
+        {
+          "id": 4191,
+          "name": "Роутер 5ГГц в рассрочку – 600 руб. (5 месяцев, 600 руб. первый взнос)",
+          "code": "pay_part_router_5hhz_6month_600rub"
+        },
+        {
+          "id": 4190,
+          "name": "Роутер 5ГГц в рассрочку – 300 руб. (11 месяцев, 300 руб. первый взнос)",
+          "code": "pay_part_router_5hhz_11month_300rub"
+        },
+        {
+          "id": 4189,
+          "name": "Роутер 2,4 ГГц в рассрочку – 200 руб. (11 месяцев, 200 руб. первый взнос)",
+          "code": "pay_part_router_2.4hhz_11month_200rub"
+        },
+        {
+          "id": 3508,
+          "name": "IPTV-приставка IZET S-412",
+          "code": "pay_part_iptv_izet_s_412"
+        },
+        {
+          "id": 2856,
+          "name": "Ярославль. Роутер (1 руб)",
+          "code": "yar_router_1r"
+        },
+        {
+          "id": 1404,
+          "name": "TPLINK WR-743ND",
+          "code": null
+        },
+        {
+          "id": 1403,
+          "name": "TPLINK WR-743ND (new user)",
+          "code": null
+        },
+        {
+          "id": 1386,
+          "name": "Роутер DIR 300",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "КТВ: Эфирный+ для юрлица, частный просмотр (531 руб)",
+      "code": "ktv_private",
+      "modes": [
+        {
+          "id": 64,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Аренда оборудования (ежемесячная)",
+      "code": "rent",
+      "modes": [
+        {
+          "id": 4473,
+          "name": "Wi-Fi точка доступа «Про» (свыше 100мбит/с) B2B (700 руб.)",
+          "code": "rent_wifi_ac_pro_100mb_b2b_700rub"
+        },
+        {
+          "id": 4472,
+          "name": "Wi-Fi точка доступа «Эконом» (до 100 мбит/с) B2B (500 руб.)",
+          "code": "rent_wifi_ac_economy_100mb_b2b_500rub"
+        },
+        {
+          "id": 4453,
+          "name": "Роутер TP-Link 2 Ггц (100 руб./мес)",
+          "code": "rent_router_tplink_2hhz_b2c_100rub"
+        },
+        {
+          "id": 4448,
+          "name": "Роутер 5 ГГц (Гигабит) B2B (450 руб.)",
+          "code": "rent_router_5hhz_1000mb_b2b_450rub"
+        },
+        {
+          "id": 4447,
+          "name": "Роутер 5 ГГц (100 Мбит) B2B (350 руб.)",
+          "code": "rent_router_5hhz_100mb_b2b_350rub"
+        },
+        {
+          "id": 4403,
+          "name": "WiFi точка доступа (300 руб/мес)",
+          "code": "rent_wifi_hotspot_b2b_300rub"
+        },
+        {
+          "id": 4327,
+          "name": "Роутер (200 руб/мес)",
+          "code": "rent_router_b2b_200rub"
+        },
+        {
+          "id": 4325,
+          "name": "Роутер B2C 2,4 ГГц (90 руб.)",
+          "code": "rent_router_2hhz_b2c_90rub"
+        },
+        {
+          "id": 4324,
+          "name": "IP-TV приставка 70 рублей",
+          "code": "rent_iptv_box_70rub"
+        },
+        {
+          "id": 4315,
+          "name": "Mikrotik (150 руб/мес)",
+          "code": "rent_mikrotik_b2b_150rub"
+        },
+        {
+          "id": 4314,
+          "name": "Mikrotik (180 руб/мес)",
+          "code": "rent_mikrotik_b2b_180rub"
+        },
+        {
+          "id": 4313,
+          "name": "Mikrotik (250 руб/мес)",
+          "code": "rent_mikrotik_b2b_250rub"
+        },
+        {
+          "id": 4307,
+          "name": "Роутер (120 руб/мес)",
+          "code": "rent_router_b2b_120rub"
+        },
+        {
+          "id": 4290,
+          "name": "IPTV-приставка (400 руб/мес)",
+          "code": "iptv_400rm"
+        },
+        {
+          "id": 4289,
+          "name": "IPTV-приставка (150 руб/мес)",
+          "code": "iptv_150rm"
+        },
+        {
+          "id": 4287,
+          "name": "Роутер (180 руб/мес)",
+          "code": "router_180rm"
+        },
+        {
+          "id": 4286,
+          "name": "Роутер 5 ГГц 150 рублей",
+          "code": "router_5gh_150rm"
+        },
+        {
+          "id": 4285,
+          "name": "Роутер 2,4 ГГц 100 рублей",
+          "code": "router_100rm"
+        },
+        {
+          "id": 4284,
+          "name": "IP-TV приставка 90 рублей",
+          "code": "IPTV_90rm"
+        },
+        {
+          "id": 4261,
+          "name": "Видеокамера (5000 руб.)",
+          "code": "video_camera_0rub_5000rub"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Продажа оборудования (разовая)",
+      "code": "sell",
+      "modes": [
+        {
+          "id": 4592,
+          "name": "Телефонный аппарат",
+          "code": "sell_telephone_set"
+        },
+        {
+          "id": 4482,
+          "name": "Роутер 5 ГГц (100 мбит) B2C (5500 руб.)",
+          "code": "sell_router_5hhz_100mb_b2с_5500rub"
+        },
+        {
+          "id": 4481,
+          "name": "Роутер 5 ГГц (1Гбит) B2C (6500 руб.)",
+          "code": "sell_router_5hhz_1000mb_b2с_6500rub"
+        },
+        {
+          "id": 4466,
+          "name": "Роутер 5 ГГц B2C (5500 руб.)",
+          "code": "sell_router_5hhz_b2c_5500rub"
+        },
+        {
+          "id": 4465,
+          "name": "Роутер 2,4 ГГц B2С (2800 руб.)",
+          "code": "sell_router_2_4hhz_b2c_2800rub"
+        },
+        {
+          "id": 4446,
+          "name": "Роутер 5 ГГц (Гигабит) B2B (6500 руб.)",
+          "code": "sell_router_5hhz_1000mb_b2b_6500rub"
+        },
+        {
+          "id": 4445,
+          "name": "Роутер 5 ГГц (100 мбит) B2B (4800 руб.)",
+          "code": "sell_router_5hhz_100mb_b2b_4800rub"
+        },
+        {
+          "id": 4351,
+          "name": "ОНТ_Коттеджи_ B2С (1500 руб.)",
+          "code": "sell_cher_ont_b2c_1500rub"
+        },
+        {
+          "id": 4323,
+          "name": "Роутер 2,4 ГГц B2B (3500 руб.)",
+          "code": "sell_router_2hhz_b2b_3500rub"
+        },
+        {
+          "id": 4322,
+          "name": "Роутер 5 ГГц B2B (4200 руб.)",
+          "code": "sell_router_5hhz_b2b_4200rub"
+        },
+        {
+          "id": 4321,
+          "name": "Роутер 5 ГГц B2C (3500 руб.)",
+          "code": "sell_router_5hhz_b2c_3500rub"
+        },
+        {
+          "id": 4320,
+          "name": "IPTV-приставка (5000 руб.)",
+          "code": "sell_iptv_box_5000rub"
+        },
+        {
+          "id": 4306,
+          "name": "Роутер 5 Ггц Б2С (3999 руб.)",
+          "code": "sell_router_5hhz_b2c_3999rub"
+        },
+        {
+          "id": 4303,
+          "name": "IPТV приставка Б2С (4500 руб.)",
+          "code": "sell_iptv_prefix_b2c_4500rub"
+        },
+        {
+          "id": 4302,
+          "name": "Роутер 2 ГГц Б2С (2500 руб.)",
+          "code": "sell_router_2hhz_b2c_2500rub"
+        },
+        {
+          "id": 4297,
+          "name": "Видеокамера 6990 рублей",
+          "code": "video_camera_6990r"
+        },
+        {
+          "id": 4262,
+          "name": "Видеокамера 5000 рублей",
+          "code": "video_camera_5000rub"
+        },
+        {
+          "id": 4246,
+          "name": "Ресивер DVB-C (2500 руб.)",
+          "code": "receiver_dvbc_2500rm"
+        },
+        {
+          "id": 4245,
+          "name": "Mikrotik hEX S (6200 руб.)",
+          "code": "mikrotik_hex_s_6200rm"
+        },
+        {
+          "id": 4244,
+          "name": "Mikrotik hEX (5500 руб.)",
+          "code": "mikrotik_hex_5500rm"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "КТВ: Народный (50 руб)",
+      "code": "ktv_peoples",
+      "modes": [
+        {
+          "id": 41,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "КТВ: Эфирный+Интернет (120 руб)",
+      "code": "ktv_ether_inet",
+      "modes": [
+        {
+          "id": 38,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Предоставление каналов передачи данных",
+      "code": "data_channel",
+      "modes": [
+        {
+          "id": 2657,
+          "name": "Череповец_КПД_Оператор_100Мбит/сек_10000р.",
+          "code": null
+        },
+        {
+          "id": 49,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Комплексная защита компьютера (антивирус)",
+      "code": "antivirus",
+      "modes": [
+        {
+          "id": 3065,
+          "name": "Агнитум - Секьюрити Сиют",
+          "code": "agnitum_siut"
+        },
+        {
+          "id": 3064,
+          "name": "Агнитум - Антивирус",
+          "code": "agnitum_antivirus"
+        },
+        {
+          "id": 34,
+          "name": "Антивирус + Родительский контроль",
+          "code": null
+        },
+        {
+          "id": 33,
+          "name": "Антивирус + Антиспам + Родительский контроль",
+          "code": null
+        },
+        {
+          "id": 32,
+          "name": "Антивирус + Антиспам",
+          "code": null
+        },
+        {
+          "id": 31,
+          "name": "Антивирус",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Реальный IP-адрес (бесплатно)",
+      "code": "real_ip_free",
+      "modes": [
+        {
+          "id": 50,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Подключение бесплатного внешнего IP",
+      "code": null,
+      "modes": []
+    },
+    {
+      "id": 17,
+      "name": "Списания с комментарием",
+      "code": "spis_comm",
+      "modes": [
+        {
+          "id": 16,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Превышение трафика",
+      "code": null,
+      "modes": [
+        {
+          "id": 15,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Расходы на IP-телефонию",
+      "code": "voip_charges",
+      "modes": [
+        {
+          "id": 2818,
+          "name": "Плата за подключение моноуслуги КТВ: Народный",
+          "code": "ktv_narodnui"
+        },
+        {
+          "id": 1514,
+          "name": "МГМН",
+          "code": "mgmn_calls"
+        },
+        {
+          "id": 9,
+          "name": "Обычный",
+          "code": "not_mgmn_calls"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Z-phone",
+      "code": "voip",
+      "modes": [
+        {
+          "id": 4617,
+          "name": "Услуга 8-800 (6000 руб.)",
+          "code": "voip_service_8800_6000rub"
+        },
+        {
+          "id": 4580,
+          "name": "Речевая аналитика (500)",
+          "code": "zphone_speech_analitics_500rub"
+        },
+        {
+          "id": 4579,
+          "name": "Колл-центр (500)",
+          "code": "zphone_callcenter_500rub"
+        },
+        {
+          "id": 4578,
+          "name": "Автоинформирование (500)",
+          "code": "zphone_autoinform_500rub"
+        },
+        {
+          "id": 4533,
+          "name": "Безлимитный МГМН - пакет 2000",
+          "code": "unlimited_mgmn_packet_2000_minutes_package"
+        },
+        {
+          "id": 4517,
+          "name": "ВАТС_itoolabs_индивидуальный_1 (10 городских/ 30 внутренних) – 2 200 руб.",
+          "code": "zphone_cloudpbx_ind1_b2b_2200rub"
+        },
+        {
+          "id": 4501,
+          "name": "ВАТС_itoolabs_Мега L (200 городских / 200 внутренних) - 40000 руб.",
+          "code": "zphone_cloudpbx_mega_l_40000rub"
+        },
+        {
+          "id": 4500,
+          "name": "ВАТС_itoolabs_Мега M (150 городских / 150 внутренних) - 30000 руб.",
+          "code": "zphone_cloudpbx_mega_m_30000rub"
+        },
+        {
+          "id": 4499,
+          "name": "ВАТС_itoolabs_Мега S (100 городских / 100 внутренних) - 20000 руб.",
+          "code": "zphone_cloudpbx_mega_s_20000rub"
+        },
+        {
+          "id": 4498,
+          "name": "Запись разговоров (15000 руб.)",
+          "code": "zphone_zapis_razgovorov_15000rub"
+        },
+        {
+          "id": 4497,
+          "name": "Запись разговоров (12000 руб.)",
+          "code": "zphone_zapis_razgovorov_12000rub"
+        },
+        {
+          "id": 4496,
+          "name": "Запись разговоров (8000 руб.)",
+          "code": "zphone_zapis_razgovorov_8000rub"
+        },
+        {
+          "id": 4495,
+          "name": "Безлимитный МГМН - пакет 12000",
+          "code": "unlimited_mgmn_packet_12000_minutes_package"
+        },
+        {
+          "id": 4494,
+          "name": "Безлимитный МГМН - пакет 9000",
+          "code": "unlimited_mgmn_packet_9000_minutes_package"
+        },
+        {
+          "id": 4493,
+          "name": "Безлимитный МГМН - пакет 7000",
+          "code": "unlimited_mgmn_packet_7000_minutes_package"
+        },
+        {
+          "id": 4492,
+          "name": "Безлимитный МГМН - пакет 6000",
+          "code": "unlimited_mgmn_packet_6000_minutes_package"
+        },
+        {
+          "id": 4468,
+          "name": "Безлимитный МГМН - пакет 18000",
+          "code": "unlimited_mgmn_packet_18000_minutes_package"
+        },
+        {
+          "id": 4456,
+          "name": "Запись разговоров (2000 руб.)",
+          "code": "zphone_zapis_razgovorov_2000rub"
+        },
+        {
+          "id": 4455,
+          "name": "ВАТС_itoolabs Супер (10 городских / 30 внутренних) - 4000 руб.",
+          "code": "zphone_cloudpbx_super_4000rub"
+        },
+        {
+          "id": 4444,
+          "name": "Городской безлимит (50 руб./линия)",
+          "code": "zphone_gorodskoj_bezlimit_50rub"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Услуги техподдержки",
+      "code": "support",
+      "modes": [
+        {
+          "id": 4604,
+          "name": "Обычный",
+          "code": "support_common_b2b_1rub"
+        },
+        {
+          "id": 4430,
+          "name": "Настройка ВАТС (1000 руб.)",
+          "code": "support_nastrojka_vats_1000rub"
+        },
+        {
+          "id": 4301,
+          "name": "Настройка 0 руб. (физ)",
+          "code": "uslugi_tehpodderzhki_nastrojka_0rub"
+        },
+        {
+          "id": 4097,
+          "name": "Выезд мастера (100 руб)",
+          "code": "support_coming_master"
+        },
+        {
+          "id": 4092,
+          "name": "Доп. подключение роутера абонента",
+          "code": "over_connect_abon_router"
+        },
+        {
+          "id": 4067,
+          "name": "Утрата/порча кабеля RCA/HDMI",
+          "code": "support_pay_before_destroy_cable_rca_hdmi"
+        },
+        {
+          "id": 4066,
+          "name": "Утрата/порча блока питания",
+          "code": "support_pay_before_destroy_energy_block"
+        },
+        {
+          "id": 4065,
+          "name": "Утрата/порча пульта",
+          "code": "support_pay_before_destroy_device_controller"
+        },
+        {
+          "id": 4063,
+          "name": "Настройка клиентского роутера ОБЩЕЖИТИЕ (690 руб.)",
+          "code": null
+        },
+        {
+          "id": 4022,
+          "name": "Установка ПО/Драйверов за еденицу*",
+          "code": "support_connect_third_tv_with action"
+        },
+        {
+          "id": 4021,
+          "name": "Подключение 3-го ТВ приемника по акции",
+          "code": "support_connect_third_tv_with action"
+        },
+        {
+          "id": 4020,
+          "name": "Подключение 2-го ТВ  приемника по акции",
+          "code": "support_connect_second_tv_with action"
+        },
+        {
+          "id": 4019,
+          "name": "Восстановление паролей (почта, Skype, vk)*",
+          "code": "support_recavery_password_for_mail_vk_and_etc"
+        },
+        {
+          "id": 4018,
+          "name": "Работы не указанные в прайс-листе***",
+          "code": "support_install_replace_rj45_rj12_connector"
+        },
+        {
+          "id": 4017,
+          "name": "Выезд мастера *",
+          "code": "support_install_replace_rj45_rj12_connector"
+        },
+        {
+          "id": 4016,
+          "name": "Востановление кабеля UTP/RG6*",
+          "code": "support_install_replace_rj45_rj12_connector"
+        },
+        {
+          "id": 4015,
+          "name": "Удлинение кабеля UTP/RG6*",
+          "code": "support_install_replace_rj45_rj12_connector"
+        },
+        {
+          "id": 4014,
+          "name": "Изготовление патчкорда UTP/RG6*",
+          "code": "support_install_replace_rj45_rj12_connector"
+        },
+        {
+          "id": 4013,
+          "name": "Установка/замена коннектора RJ45/RJ12",
+          "code": "support_install_replace_rj45_rj12_connector"
+        },
+        {
+          "id": 4012,
+          "name": "Установка/замена ТВ-штекера/F-разъема/F-гнезда",
+          "code": "support_install_replace_tv_plug_f_connector_f_socke"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Интернет",
+      "code": "internet",
+      "modes": [
+        {
+          "id": 4638,
+          "name": "Ярославль 200 Мбит/с - 6 500 руб.",
+          "code": "yaroslavl_200_mbit_s_-_6_500_rub_67_22_10_2025"
+        },
+        {
+          "id": 4631,
+          "name": "Оптимальный: Unlim 100 Мбит/с (270р.)",
+          "code": "optimalnyj_unlim_100_mbit_s_270r_22_18_09_2025"
+        },
+        {
+          "id": 4630,
+          "name": "Оптимальный: Unlim 100 Мбит/с (370р.)",
+          "code": "optimalnyj_unlim_100_mbit_s_370r_13_18_09_2025"
+        },
+        {
+          "id": 4628,
+          "name": "Ярославль 500 Мбит/с",
+          "code": "yaroslavl_500_mbit_s_19_11_09_2025"
+        },
+        {
+          "id": 4627,
+          "name": "Челябинск 50 Мбит/с - 2 000",
+          "code": "chelyabinsk_50_mbit_s_-_2_000_27_10_09_2025"
+        },
+        {
+          "id": 4626,
+          "name": "В.Новогород 60 Мбит/сек - 3500 руб.",
+          "code": "v_novogorod_60_mbit_sek_-_3500_rub_33_28_08_2025"
+        },
+        {
+          "id": 4625,
+          "name": "В.Новогород 60 Мбит/сек",
+          "code": "v_novogorod_60_mbit_sek_28_28_08_2025"
+        },
+        {
+          "id": 4623,
+          "name": "В.Новгород 500 Мбит/с –12000 руб.",
+          "code": "v_novgorod_500_mbit_s_12000_rub_21_13_08_2025"
+        },
+        {
+          "id": 4622,
+          "name": "Ярославль 150 Мбит/с - 4000",
+          "code": "yaroslavl_150_mbit_s_-_4000_50_12_08_2025"
+        },
+        {
+          "id": 4621,
+          "name": "Ярославль150 Мбит/с",
+          "code": "yaroslavl150_mbit_s_27_12_08_2025"
+        },
+        {
+          "id": 4620,
+          "name": "Череповец: 1 Гбит/с - 30 000 руб.",
+          "code": "cherepovetc_1_gbit_s_-_30_000_rub_62_24_07_2025"
+        },
+        {
+          "id": 4618,
+          "name": "Череповец: 1 Гбит/с - 35 000 руб.",
+          "code": "cherepovetc_1_gbit_s_-_35_000_rub_10_08_07_2025"
+        },
+        {
+          "id": 4616,
+          "name": "Технический_IP-TV на чужом ИНТ (0 руб.)",
+          "code": "tekhnicheskij_ip-tv_na_chuzhom_int_0_rub_90_16_06_2025"
+        },
+        {
+          "id": 4611,
+          "name": "Великий Новгород 1000 Мбит/с/1Гбит - 15000 руб.",
+          "code": "velikij_novgorod_1000_mbit_s_1gbit_-_15000_rub_32_02_06_2025"
+        },
+        {
+          "id": 4610,
+          "name": "Ярославль 70 Мбит/с - 3000 руб.",
+          "code": "yaroslavl_70_mbit_s_-_3000_rub_52_30_05_2025"
+        },
+        {
+          "id": 4609,
+          "name": "Челябинск 100 Мбит/с - 2000",
+          "code": "chelyabinsk_100_mbit_s_-_2000_84_20_05_2025"
+        },
+        {
+          "id": 4608,
+          "name": "VIP 200",
+          "code": "vip_200_23_19_05_2025"
+        },
+        {
+          "id": 4607,
+          "name": "Челябинск 100 Мбит/с - 3000 руб.",
+          "code": "chelyabinsk_100_mbit_s_-_3000_rub_65_07_05_2025"
+        },
+        {
+          "id": 4606,
+          "name": "Великий Новгород 200 Мбит/с- 7500 руб.",
+          "code": "velikij_novgorod_200_mbit_s-_7500_rub_72_03_05_2025"
+        },
+        {
+          "id": 4605,
+          "name": "Ярославль 300 Мбит/с - 7200 руб.",
+          "code": "yaroslavl_300_mbit_s_-_7200_rub_93_29_04_2025"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Почтовый ящик 50Мб",
+      "code": "email_50mb",
+      "modes": [
+        {
+          "id": 3394,
+          "name": "Особый (100 руб/мес)",
+          "code": "email_50mb_100r"
+        },
+        {
+          "id": 2,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Реальный IP-адрес",
+      "code": "real_ip",
+      "modes": [
+        {
+          "id": 4440,
+          "name": "Для юрлиц за 200 р/мес",
+          "code": "mode_for_juridical_200rub"
+        },
+        {
+          "id": 3578,
+          "name": "СПб ip статический - 0 рублей/мес",
+          "code": "real_ip_stat_spb_0r"
+        },
+        {
+          "id": 3375,
+          "name": "Реальный ip адрес - (для юр. лиц 100 руб/мес)",
+          "code": "real_ip_address_jur_100r"
+        },
+        {
+          "id": 3285,
+          "name": "Челябинск: Реальный IP адрес (для юр. лиц)",
+          "code": null
+        },
+        {
+          "id": 2920,
+          "name": "Для физлиц за 100 р/мес",
+          "code": "mode_for_fizical_100r"
+        },
+        {
+          "id": 2919,
+          "name": "Для юрлиц за 150 р/мес",
+          "code": "mode_for_juridical_150r"
+        },
+        {
+          "id": 2548,
+          "name": "Бесплатный внешний IP-адрес (Программа VIP)",
+          "code": "real_ip_vip"
+        },
+        {
+          "id": 1,
+          "name": "Обычный",
+          "code": null
+        }
+      ]
+    }
+  ]
+}

@@ -7,12 +7,12 @@ export default {
 <template>
   <n-layout>
   <n-breadcrumb>
-    <n-breadcrumb-item v-for="i in ['Home', 'Account','Category']">
+    <n-breadcrumb-item v-for="i in ['Услуги', 'Активные']">
       {{ i }}
     </n-breadcrumb-item>
   </n-breadcrumb>
     <n-card  class="mt-5" hoverable>
-      <n-h1>Service</n-h1>
+      <n-h1>Услуги</n-h1>
       <n-p>
         Hear the Wind Sing ( Kaze no uta o kike) is the first novel by
         Japanese writer Haruki Murakami. It first appeared in the June 1979 issue of

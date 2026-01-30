@@ -1,0 +1,78 @@
+{
+  "data": [
+    {
+      "id": 148,
+      "name": "Смотрешка",
+      "code": "smotreshka",
+      "type": "ProductService",
+      "modes": [
+        {
+          "usmid": 34185485,
+          "name": "Публичный KHL (450 руб.)_API id 1053",
+          "code": "smotreshka_publichny_khl_450_id1053",
+          "type": "UserServMode"
+        },
+        {
+          "usmid": 34185486,
+          "name": "Коммерческий МАТЧ! (199 руб.)_API id 1052",
+          "code": "smotreshka_commerchesky_match_199r_id1052",
+          "type": "UserServMode"
+        },
+        {
+          "usmid": 34185490,
+          "name": "Публичный МАТЧ! (1000 руб.)_API id 1051",
+          "code": "smotreshka_publichny_match_1000_id1051",
+          "type": "UserServMode"
+        },
+        {
+          "usmid": 34185491,
+          "name": "Публичный МАТЧ! (1000 руб.)_API id 1051",
+          "code": "smotreshka_publichny_match_1000_id1051",
+          "type": "UserServMode"
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "name": "Абонентская плата (ежемесячная)",
+      "code": "abon_pay_every_month",
+      "type": "ProductService",
+      "modes": [
+        {
+          "usmid": 34185487,
+          "name": "APN",
+          "code": "apn",
+          "type": "UserServMode"
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "name": "IP-TV (0 руб.)",
+      "code": "iptv_0rub",
+      "type": "ProductService",
+      "modes": [
+        {
+          "usmid": 34185488,
+          "name": "Обычный",
+          "code": null,
+          "type": "UserServMode"
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "name": "IPTV: 3-й Телевизор (0 руб.)",
+      "code": "all_iptv_plus3tv_0rub",
+      "type": "ProductService",
+      "modes": [
+        {
+          "usmid": 34185489,
+          "name": "Базовый",
+          "code": null,
+          "type": "UserServMode"
+        }
+      ]
+    }
+  ]
+}
