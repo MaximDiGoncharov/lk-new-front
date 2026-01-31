@@ -1,11 +1,11 @@
 <script>
 export default {
-  name: "UserProfileInfo"
+  name: "Replineshments"
 }
 </script>
 
 <template>
-
+Replenishment
 </template>
 
 <style scoped>

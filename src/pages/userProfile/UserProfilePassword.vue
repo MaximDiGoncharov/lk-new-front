@@ -5,7 +5,16 @@ export default {
 </script>
 
 <template>
-user profile password
+  <n-form>
+    <n-form-item>
+      <n-input
+          type="password"
+          show-password-on="mousedown"
+          placeholder="Password"
+          :minlength="6"
+      />
+    </n-form-item>
+  </n-form>
 </template>
 
 <style scoped>

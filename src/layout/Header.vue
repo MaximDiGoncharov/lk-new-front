@@ -21,6 +21,9 @@ export default {
         <li>
           <router-link to="/service" class="nav-link">Service</router-link>
         </li>
+        <li>
+          <router-link to="/finance" class="nav-link">Finance</router-link>
+        </li>
       </ul>
     </nav>
     <HeaderDropdown/>
