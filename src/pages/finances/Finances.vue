@@ -1,6 +1,9 @@
 <script>
+import Balance from "@/pages/finances/Balance.vue";
+
 export default {
-  name: "Finances"
+  name: "Finances",
+  components: {Balance}
 }
 </script>
 
@@ -8,7 +11,7 @@ export default {
   <n-card title="Финансы" style="margin-bottom: 16px">
     <n-tabs default-value="balance" justify-content="space-evenly" type="line">
       <n-tab-pane name="balance" tab="Баланс">
-        Текущий баланс
+        <Balance/>
       </n-tab-pane>
       <n-tab-pane name="freeze" tab="Заморозка">
         Заморозка

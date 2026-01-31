@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src/App.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/pages/finances/Balance.vue" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/pages/finances/Finances.vue" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/pages/userProfile/UserProfile.vue" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/pages/userProfile/UserProfileInfo.vue" charset="UTF-8" />

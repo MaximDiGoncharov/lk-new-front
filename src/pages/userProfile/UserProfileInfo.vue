@@ -7,7 +7,6 @@
       class="w-50 mx-auto"
       vertical
   >
-
     <n-form-item label="Email" path="email">
       <n-auto-complete
           v-model:value="formData.email"
