@@ -1,11 +1,11 @@
 <script>
 export default {
-  name: "UserProfileInfo"
+  name: "Balance"
 }
 </script>
 
 <template>
-
+  Balance
 </template>
 
 <style scoped>

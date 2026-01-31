@@ -1,11 +1,11 @@
 <script>
 export default {
-  name: "UserProfileInfo"
+  name: "Postponement"
 }
 </script>
 
 <template>
-
+Postponements
 </template>
 
 <style scoped>

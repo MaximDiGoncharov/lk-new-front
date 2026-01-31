@@ -1,11 +1,11 @@
 <script>
 export default {
-  name: "UserProfileInfo"
+  name: "WriteOff"
 }
 </script>
 
 <template>
-
+write-off
 </template>
 
 <style scoped>
