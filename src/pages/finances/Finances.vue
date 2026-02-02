@@ -3,7 +3,7 @@ import Balance from "@/pages/finances/Balance.vue";
 
 export default {
   name: "Finances",
-  components: {Balance}
+  components: {Balance},
 }
 </script>
 
