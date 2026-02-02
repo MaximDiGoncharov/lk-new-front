@@ -1,7 +1,12 @@
 <template>
 
   <n-form :model="formData" :rules="rules" ref="formRef" class="w-50 mx-auto" vertical>
-
+    <n-image
+        class="d-flex justify-content-center"
+        width="100"
+        src="https://07akioni.oss-cn-beijing.aliyuncs.com/07akioni.jpeg"
+        placeholder="izet"
+    />
     <n-form-item label="Логин" path="login">
       <n-input v-model:value="formData.login" placeholder="Введите логин"/>
     </n-form-item>
@@ -91,9 +96,9 @@ export default {
 
     },
     async loginError(message) {
-        this.formData.login = '';
-        this.formData.password = '';
-        await this.$refs.formRef.validate();
+      this.formData.login = '';
+      this.formData.password = '';
+      await this.$refs.formRef.validate();
     }
   }
 }
