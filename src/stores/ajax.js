@@ -69,6 +69,10 @@ export const useApiStore = defineStore('api',
             return sessionStorage.getItem(key) ?? null;
         }
 
+        function _clearStorage() {
+            sessionStorage.clear();
+        }
+
         function _setStorage(key, value, days = 1) {
             sessionStorage.setItem(key, value);
         }
@@ -80,6 +84,7 @@ export const useApiStore = defineStore('api',
             _successNotify,
             _dangerNotify,
             _getStorage,
-            _setStorage
+            _setStorage,
+            _clearStorage
         }
     })

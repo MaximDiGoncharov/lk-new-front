@@ -36,7 +36,7 @@ export default {
           label: "Logout",
           key: "logout",
           icon: this.renderIcon(LogOutOutline),
-          props: this.renderLink('/login')
+          props: this.renderLink('/logout')
         }
       ]
     }

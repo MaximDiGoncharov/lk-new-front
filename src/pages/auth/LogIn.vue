@@ -80,6 +80,9 @@ export default {
       formRef: null,
     }
   },
+  mounted() {
+    this.apiStore._clearStorage();
+  },
   methods: {
     async handleSubmit() {
       await this.$refs.formRef.validate();
@@ -113,8 +116,8 @@ export default {
       }, 100);
 
     },
-    async loginError({message}) {
-      this.message.error(message, {closable: true});
+    async loginError({message2}) {
+      this.message.error(message2, {closable: true});
       this.formData.login = '';
       this.formData.password = '';
       await this.$refs.formRef.validate();
