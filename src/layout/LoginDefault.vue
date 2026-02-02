@@ -8,9 +8,8 @@ export default {
 </script>
 
 <template>
-  <Login/>
+  <n-message-provider>
+    <Login/>
+  </n-message-provider>
 </template>
 
-<style scoped>
-
-</style>

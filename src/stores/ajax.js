@@ -5,6 +5,10 @@ import {useMessage} from "naive-ui";
 export const useApiStore = defineStore('api',
     () => {
 
+        function _url() {
+            return 'http://localhost/user-cabinet/';
+        }
+
         // Метод через который мы обращаемся к бэку
         async function _ajax(url, options = {}, handleSuccess = () => {
         }, handleError = () => {
@@ -21,7 +25,7 @@ export const useApiStore = defineStore('api',
                     body: options.body ? JSON.stringify(options.body) : null,
                     ...options.extraOptions,
                 }
-
+                url = _url() + url;
                 const response = await fetch(url, config)
                 let data = await response.json()
 
