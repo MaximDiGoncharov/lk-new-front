@@ -14,14 +14,16 @@
         <n-p class="text-center">
           Введите погин и пароль
         </n-p>
+
         <n-form-item label="Логин" path="login">
-          <n-input v-model:value="formData.login" placeholder="Введите логин"/>
+          <n-input v-model:value="formData.login" placeholder="Введите логин" size="large"/>
         </n-form-item>
         <n-form-item label="Пароль" path="password">
-          <n-input v-model:value="formData.password" type="password" placeholder="Введите пароль"/>
+          <n-input v-model:value="formData.password" type="password" show-password-on="mousedown"
+                   placeholder="Введите пароль" size="large"/>
         </n-form-item>
-        <n-form-item class="d-flex justify-content-center mt-5">
-          <n-button type="info" native-type="submit" :loading="loading" @click="handleSubmit" class="">
+        <n-form-item class="d-flex justify-content-center mt-3">
+          <n-button type="info" size="large" native-type="submit" :loading="loading" @click="handleSubmit" class="px-5">
             {{ loading ? null : "Войти" }}
           </n-button>
         </n-form-item>
