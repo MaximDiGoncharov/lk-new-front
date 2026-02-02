@@ -1,25 +1,28 @@
 <template>
+  <n-flex justify="space-around" size="large" vertical class="h-100 w-100" hoverable>
+    <n-card class="mx-auto border rounded" id="card-wrapper">
+      <n-form :model="formData" :rules="rules" ref="formRef" vertical hoverable>
+        <n-image
+            class="d-flex justify-content-center mb-5"
+            width="100"
+            :src="imageLogo"
+            placeholder="izet"
+        />
+        <n-form-item label="Логин" path="login">
+          <n-input v-model:value="formData.login" placeholder="Введите логин"/>
+        </n-form-item>
+        <n-form-item label="Пароль" path="password">
+          <n-input v-model:value="formData.password" type="password" placeholder="Введите пароль"/>
+        </n-form-item>
+        <n-form-item  class="d-flex justify-content-center mt-5">
+            <n-button type="primary" native-type="submit" :loading="loading" @click="handleSubmit" class="">
+              {{ loading ? null : "Войти" }}
+            </n-button>
+        </n-form-item>
+      </n-form>
+    </n-card>
+  </n-flex>
 
-  <n-form :model="formData" :rules="rules" ref="formRef" class="w-50 mx-auto" vertical>
-    <n-image
-        class="d-flex justify-content-center"
-        width="100"
-        src="https://07akioni.oss-cn-beijing.aliyuncs.com/07akioni.jpeg"
-        placeholder="izet"
-    />
-    <n-form-item label="Логин" path="login">
-      <n-input v-model:value="formData.login" placeholder="Введите логин"/>
-    </n-form-item>
-    <n-form-item label="Пароль" path="password">
-      <n-input v-model:value="formData.password" type="password" placeholder="Введите пароль"/>
-    </n-form-item>
-    <n-form-item>
-      <n-button type="primary" native-type="submit" :loading="loading" @click="handleSubmit">
-        {{ loading ? null : "Войти" }}
-      </n-button>
-    </n-form-item>
-
-  </n-form>
 </template>
 
 
@@ -34,6 +37,7 @@ export default {
   },
   data() {
     return {
+      imageLogo: "/yar/apple-icon.png",
       formData: {
         login: '',
         password: ''
@@ -103,3 +107,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+#card-wrapper {
+  max-width: 28rem;
+}
+</style>
