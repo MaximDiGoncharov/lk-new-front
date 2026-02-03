@@ -1,14 +1,7 @@
 <template>
   <n-config-provider :theme="themeModeStore.isDark ? darkTheme : null">
     <n-space vertical style="height: 100vh">
-      <!--    <n-switch v-model:value="collapsed">-->
-      <!--      <template #checked-icon>-->
-      <!--        <n-icon :component="ArrowForwardOutline" />-->
-      <!--      </template>-->
-      <!--      <template #unchecked-icon>-->
-      <!--        <n-icon :component="ArrowBackOutline" />-->
-      <!--      </template>-->
-      <!--    </n-switch>-->
+
 
       <n-layout has-sider style="height: 100vh">
         <n-layout-sider
@@ -20,8 +13,19 @@
             show-trigger
             @collapse="collapsed = true"
             @expand="collapsed = false"
-            class="pt-5"
+            class="pt-5 "
         >
+<!--          <div class="justify-self-start flex justify-center items-center">-->
+<!--            <n-switch v-model:value="collapsed" :round="false">-->
+<!--              <template #checked-icon>-->
+<!--                <n-icon :component="ArrowForwardOutline"/>-->
+<!--              </template>-->
+<!--              <template #unchecked-icon>-->
+<!--                <n-icon :component="ArrowBackOutline"/>-->
+<!--              </template>-->
+<!--            </n-switch>-->
+<!--          </div>-->
+
           <n-menu
               v-model:value="activeKey"
               :collapsed="collapsed"
@@ -30,12 +34,11 @@
               :options="menuOptions"
 
           />
-<!--          <n-switch v-model:value="isDark">-->
-
-<!--          </n-switch>-->
         </n-layout-sider>
         <n-layout>
-          <n-layout-header id="header"><Header/></n-layout-header>
+          <n-layout-header id="header">
+            <Header/>
+          </n-layout-header>
           <n-layout-content id="content">
             <n-message-provider>
               <router-view/>
@@ -58,7 +61,6 @@ import {
 } from "@vicons/ionicons5";
 import {NIcon} from "naive-ui";
 import {h} from "vue";
-import Sidebar from "@/layout/Sidebar.vue";
 import Header from "@/layout/Header.vue";
 import HeaderDropdown from "@/layout/HeaderDropdown.vue";
 import {darkTheme} from 'naive-ui'
@@ -75,7 +77,7 @@ export default {
       return ArrowForwardOutline
     }
   },
-  components: {Sidebar, HeaderDropdown, Header},
+  components: {HeaderDropdown, Header},
   setup() {
     const themeModeStore = useThemeModeStore()
     return {
@@ -144,17 +146,5 @@ export default {
 
 <style scoped>
 
-#header {
-  padding: 1rem;
-}
-
-#content {
-  height: 90vh;
-
-}
-
-#footer {
-  height: 5vh;
-}
 
 </style>
