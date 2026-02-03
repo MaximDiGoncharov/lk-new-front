@@ -151,9 +151,8 @@ export default {
       );
     },
     cancelCallback() {
-      alert("cancelCallback");
     },
-    getCurrentTariff(){
+    getCurrentTariff() {
       this.apiStore._ajax(
           "get-current-tariff",
           {
@@ -178,7 +177,7 @@ export default {
 
 <template>
 
-  <n-layout>
+  <n-layout class="p-5">
     <n-breadcrumb>
       <n-breadcrumb-item v-for="i in ['Интернет', 'Тариф']">
         {{ i }}
@@ -187,12 +186,7 @@ export default {
     <n-card class="mt-5" hoverable>
       <n-h1>Интернет</n-h1>
       <n-p>
-        Hear the Wind Sing ( Kaze no uta o kike) is the first novel by
-        Japanese writer Haruki Murakami. It first appeared in the June 1979 issue of
-        Gunzo (one of the most influential literary magazines in Japan), and in book
-        form the next month. The novel was adapted by Japanese director Kazuki ?mori
-        in a 1981 film distributed by Art Theatre Guild. An English translation by
-        Alfred Birnbaum appeared in 1987.
+        Выберите наиболее подходящий тариф
       </n-p>
       <n-select
           v-model:value="selectedValue"
@@ -200,11 +194,13 @@ export default {
           placeholder="Выберите нужный тариф"
           :options="options"
           size="large"
+          class="mb-8"
       />
 
-      <n-button @click="showModal = true" class="mt-5">
+      <n-button @click="showModal = true" >
         Активировать
       </n-button>
+
       <n-modal
           v-model:show="showModal"
           preset="dialog"

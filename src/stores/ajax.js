@@ -57,12 +57,12 @@ export const useApiStore = defineStore('api',
 
         // Вызывает положительное уведомление
         function _successNotify(message, options = {}) {
-            // message.success(message || 'Success query', options)
+            message.success(message || 'Success query', options)
         }
 
         // Вызывает отрицательное уведомление
         function _dangerNotify(message) {
-            // this.message.error(message || 'Error query');
+         message.error(message || 'Error query');
         }
 
         function _getStorage(key) {

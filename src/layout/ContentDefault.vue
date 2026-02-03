@@ -1,5 +1,5 @@
 <template>
-  <n-config-provider :theme="themeModeStore.isDark ? darkTheme : null">
+  <n-config-provider :theme="themeModeStore.isDark ? darkTheme : null" :theme-overrides="themeOverrides">
     <n-space vertical style="height: 100vh">
 
 
@@ -36,15 +36,15 @@
           />
         </n-layout-sider>
         <n-layout>
-          <n-layout-header id="header">
+          <n-layout-header class="h-1/10">
             <Header/>
           </n-layout-header>
-          <n-layout-content id="content">
+          <n-layout-content class="h-9/10">
             <n-message-provider>
               <router-view/>
             </n-message-provider>
           </n-layout-content>
-          <n-layout-footer id="footer">Footer</n-layout-footer>
+          <n-layout-footer class="h-1/10">Footer</n-layout-footer>
         </n-layout>
       </n-layout>
     </n-space>
@@ -132,7 +132,15 @@ export default {
           key: "finance",
           icon: this.renderIcon(FinanceIcon)
         }
-      ]
+      ],
+      themeOverrides : {
+        Select: {
+          peers: {
+            InternalSelection: {
+            }
+          }
+        }
+      }
     }
   },
   methods: {
