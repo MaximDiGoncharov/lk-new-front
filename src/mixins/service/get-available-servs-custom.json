@@ -1,0 +1,233 @@
+{
+  "data": [
+    {
+      "value": 148,
+      "label": "Смотрешка",
+      "code": "smotreshka",
+      "modes": [
+        {
+          "value": 4637,
+          "label": "Публичный МАТЧ! (1000 руб.)_API value 1051",
+          "code": "smotreshka_publichny_match_1000_value1051"
+        },
+        {
+          "value": 4636,
+          "label": "Публичный KHL (450 руб.)_API value 1053",
+          "code": "smotreshka_publichny_khl_450_value1053"
+        },
+        {
+          "value": 4635,
+          "label": "Коммерческий СУПЕР МАТЧ! (450 руб.)_API value 1054",
+          "code": "smotreshka_commerchesky_super_match_450r_value1054"
+        },
+        {
+          "value": 4634,
+          "label": "Коммерческий МАТЧ! (199 руб.)_API value 1052",
+          "code": "smotreshka_commerchesky_match_199r_value1052"
+        },
+        {
+          "value": 4633,
+          "label": "Коммерческий KHL Prime (249 руб.)_API value 1055",
+          "code": "smotreshka_commerchesky_khl_prime_249r_value1055"
+        },
+        {
+          "value": 4632,
+          "label": "Коммерческий KHL (199 руб.)_API value 1056",
+          "code": "smotreshka_commerchesky_khl_199r_value1056"
+        },
+        {
+          "value": 4629,
+          "label": "Смарт + PREMIER (250 руб.)_API value 9101",
+          "code": "smotreshka_smart_250r_premier"
+        },
+        {
+          "value": 4572,
+          "label": "СУПЕРМАТЧ! (4500 руб.)_API value 208",
+          "code": "smotreshka_supermatch_4500_value208"
+        },
+        {
+          "value": 4571,
+          "label": "Публичный Новый + Спорт (7490 руб.)_API value1512",
+          "code": "smotreshka_publichny_novy_plus_sport_7490_value1512"
+        },
+        {
+          "value": 4570,
+          "label": "Публичный Новый (1699 руб.)_API value1511",
+          "code": "smotreshka_publichny_novy_1699_value1511"
+        },
+        {
+          "value": 4569,
+          "label": "Публичный Лайт (799 руб.)_API value 1510",
+          "code": "smotreshka_publichny_lite_799_value1510"
+        },
+        {
+          "value": 4568,
+          "label": "КХЛ HD (1490 руб.)_API value 209",
+          "code": "smotreshka_khl_hd_1490_value209"
+        },
+        {
+          "value": 4567,
+          "label": "Коммерческий + Спорт (1149 руб.)_API value 1522",
+          "code": "smotreshka_commerchesky_plus_sport_1149r_value1522"
+        },
+        {
+          "value": 4566,
+          "label": "Коммерческий Лайт (299 руб.)_ API value 1520",
+          "code": "smotreshka_commerchesky_lite_299r_value1520"
+        },
+        {
+          "value": 4565,
+          "label": "Коммерческий (699 руб.)_ API value 1521",
+          "code": "smotreshka_commerchesky_699r_value1521"
+        },
+        {
+          "value": 4560,
+          "label": "Люкс + PREMIER (430 руб.)_API value 6010",
+          "code": "smotreshka_luxe_430r_premier"
+        },
+        {
+          "value": 4559,
+          "label": "Люкс + AMEDIATEKA (430 руб.)_API value 6016",
+          "code": "smotreshka_luxe_430r_amediateka"
+        },
+        {
+          "value": 4558,
+          "label": "Микс + PREMIER (330 руб.)_API value 6009",
+          "code": "smotreshka_mix_330r_premier"
+        },
+        {
+          "value": 4557,
+          "label": "Микс + Amediateka (330 руб.)_API value 6040",
+          "code": "smotreshka_mix_330r_amediateka"
+        },
+        {
+          "value": 4547,
+          "label": "Тестовый тариф смотрешки",
+          "code": "smotreshka_test_0r"
+        }
+      ]
+    },
+    {
+      "value": 147,
+      "label": "Абонентская плата (ежемесячная)",
+      "code": "abon_pay_every_month",
+      "modes": [
+        {
+          "value": 4577,
+          "label": "Индексация_2025",
+          "code": "index_2025"
+        },
+        {
+          "value": 4550,
+          "label": "APN",
+          "code": "apn"
+        },
+        {
+          "value": 4549,
+          "label": "APN Доброцен",
+          "code": "apn_dobrocen"
+        },
+        {
+          "value": 4541,
+          "label": "Виртуальная машина",
+          "code": "virtual_machine"
+        },
+        {
+          "value": 4528,
+          "label": "Индексация_2024",
+          "code": null
+        }
+      ]
+    },
+    {
+      "value": 146,
+      "label": "IP-TV (0 руб.)",
+      "code": "iptv_0rub",
+      "modes": [
+        {
+          "value": 4512,
+          "label": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "value": 145,
+      "label": "Вместе.РФ (0 руб./мес.)",
+      "code": "all_iptv_vmeste_rf_0rub",
+      "modes": [
+        {
+          "value": 4469,
+          "label": "Обычный",
+          "code": null
+        }
+      ]
+    },
+    {
+      "value": 144,
+      "label": "Абонентская плата за услуги DNS-фильтрации",
+      "code": "dnsfilter",
+      "modes": [
+        {
+          "value": 4587,
+          "label": "DNS_Дет.сад_библиотека(800 р./мес.)",
+          "code": "dnsfilter_kindergarten_library_800rub"
+        },
+        {
+          "value": 4586,
+          "label": "DNS_ВУЗ (2500 р./мес.)",
+          "code": "dnsfilter_university_2500rub"
+        },
+        {
+          "value": 4585,
+          "label": "DNS_Колледж (2000 р./мес.)",
+          "code": "dnsfilter_college_2000rub"
+        },
+        {
+          "value": 4584,
+          "label": "DNS_Школа (1500 р./мес.)",
+          "code": "dnsfilter_school_1500rub"
+        },
+        {
+          "value": 4582,
+          "label": "DNS_Дет.сад_библиотека(700 р./мес.)",
+          "code": "dnsfilter_kindergarten_library_500rub"
+        },
+        {
+          "value": 4460,
+          "label": "DNS-фильтр (500 р./мес.)",
+          "code": "all_dnsfilter_500rub"
+        },
+        {
+          "value": 4459,
+          "label": "DNS-фильтр «Школа» (350 р./мес.)",
+          "code": "dnsfilter_school_350rub"
+        }
+      ]
+    },
+    {
+      "value": 143,
+      "label": "IPTV: 3-й Телевизор (0 руб.)",
+      "code": "all_iptv_plus3tv_0rub",
+      "modes": [
+        {
+          "value": 4451,
+          "label": "Базовый",
+          "code": null
+        }
+      ]
+    },
+    {
+      "value": 142,
+      "label": "IPTV: 2-й Телевизор (0 руб.)",
+      "code": "all_iptv_plus2tv_0rub",
+      "modes": [
+        {
+          "value": 4450,
+          "label": "Базовый",
+          "code": null
+        }
+      ]
+    }
+  ]
+}

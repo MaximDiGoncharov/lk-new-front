@@ -1,34 +1,53 @@
 <template>
+  <n-flex justify="center" size="large" vertical class="h-100 w-100" hoverable>
+    <n-image
+        class=" mx-auto mb-5"
+        width="100"
+        :src="imageLogo"
+        placeholder="izet"
+    />
+    <n-card class="mx-auto border rounded" id="card-wrapper" size="huge">
+      <n-form :model="formData" :rules="rules" ref="formRef" vertical hoverable>
+        <n-h1 class="text-center">
+          Добро пожаловать
+        </n-h1>
+        <n-p class="text-center">
+          Введите погин и пароль
+        </n-p>
 
-  <n-form :model="formData" :rules="rules" ref="formRef" class="w-50 mx-auto" vertical>
+        <n-form-item label="Логин" path="login">
+          <n-input v-model:value="formData.login" placeholder="Введите логин" size="large"/>
+        </n-form-item>
+        <n-form-item label="Пароль" path="password">
+          <n-input v-model:value="formData.password" type="password" show-password-on="mousedown"
+                   placeholder="Введите пароль" size="large"/>
+        </n-form-item>
+        <n-form-item class="d-flex justify-content-center mt-3">
+          <n-button type="info" size="large" native-type="submit" :loading="loading" @click="handleSubmit" class="px-5">
+            {{ loading ? null : "Войти" }}
+          </n-button>
+        </n-form-item>
+      </n-form>
+    </n-card>
+  </n-flex>
 
-    <n-form-item label="Логин" path="login">
-      <n-input v-model:value="formData.login" placeholder="Введите логин"/>
-    </n-form-item>
-    <n-form-item label="Пароль" path="password">
-      <n-input v-model:value="formData.password" type="password" placeholder="Введите пароль"/>
-    </n-form-item>
-    <n-form-item>
-      <n-button type="primary" native-type="submit" :loading="loading" @click="handleSubmit">
-        {{ loading ? null : "Войти" }}
-      </n-button>
-    </n-form-item>
-
-  </n-form>
 </template>
 
 
 <script>
 import {useApiStore} from "@/stores/ajax.js";
+import {useMessage} from 'naive-ui'
 
 export default {
   name: 'Login',
   setup() {
-    const apiStore = useApiStore()
-    return {apiStore}
+    const apiStore = useApiStore();
+    const message = useMessage()
+    return {apiStore, message}
   },
   data() {
     return {
+      imageLogo: "/yar/apple-icon.png",
       formData: {
         login: '',
         password: ''
@@ -53,8 +72,8 @@ export default {
             trigger: ['blur']
           },
           {
-            min: 6,
-            message: 'Пароль должен содержать минимум 6 символов',
+            min: 4,
+            message: 'Пароль должен содержать минимум 4 символов',
             trigger: ['blur']
           }
         ]
@@ -63,20 +82,27 @@ export default {
       formRef: null,
     }
   },
+  mounted() {
+    this.apiStore._clearStorage();
+  },
   methods: {
     async handleSubmit() {
       await this.$refs.formRef.validate();
       this.loading = true;
       this.apiStore._ajax(
-          "get-short-user-info",
+          "login",
           {
             method: "POST",
+            body: {
+              login: this.formData.login,
+              password: this.formData.password
+            }
           },
           (response) => {
             this.loginSuccess(response);
           },
           (response) => {
-            this.loginError({...response});
+            this.loginError(response);
           },
           () => {
             this.loading = false
@@ -85,16 +111,59 @@ export default {
 
     },
     async loginSuccess() {
-      // .. после успешной авторизации
+      this.message.success("Авторизация прошла успешно", {closable: true,});
       this.apiStore._setStorage("sid", 1);
-      this.$router.push("/internet");
+      setTimeout(() => {
+        this.$router.push("/internet");
+      }, 100);
 
     },
-    async loginError(message) {
-        this.formData.login = '';
-        this.formData.password = '';
-        await this.$refs.formRef.validate();
+    async loginError({message2}) {
+      this.message.error(message2, {closable: true});
+      this.formData.login = '';
+      this.formData.password = '';
+      await this.$refs.formRef.validate();
     }
   }
 }
 </script>
+
+<style scoped>
+@media (max-width: 480px) {
+  #card-wrapper {
+    max-width: 24rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  #card-wrapper {
+    max-width: 28rem;
+  }
+}
+
+
+@media (min-width: 768px) {
+  #card-wrapper {
+    max-width: 28rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #card-wrapper {
+    max-width: 28rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #card-wrapper {
+    max-width: 28rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  #card-wrapper {
+    max-width: 28rem;
+  }
+}
+
+</style>

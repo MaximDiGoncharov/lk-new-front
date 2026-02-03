@@ -1,74 +1,74 @@
 {
   "data": [
     {
-      "id": 148,
-      "name": "Смотрешка",
+      "value": 148,
+      "label": "РЎРјРѕС‚СЂРµС€РєР°",
       "code": "smotreshka",
       "type": "ProductService",
       "modes": [
         {
-          "usmid": 34185485,
-          "name": "Публичный KHL (450 руб.)_API id 1053",
+          "value": 34185485,
+          "label": "РџСѓР±Р»РёС‡РЅС‹Р№ KHL (450 СЂСѓР±.)_API id 1053",
           "code": "smotreshka_publichny_khl_450_id1053",
           "type": "UserServMode"
         },
         {
-          "usmid": 34185486,
-          "name": "Коммерческий МАТЧ! (199 руб.)_API id 1052",
+          "value": 34185486,
+          "label": "РљРѕРјРјРµСЂС‡РµСЃРєРёР№ РњРђРўР§! (199 СЂСѓР±.)_API id 1052",
           "code": "smotreshka_commerchesky_match_199r_id1052",
           "type": "UserServMode"
         },
         {
-          "usmid": 34185490,
-          "name": "Публичный МАТЧ! (1000 руб.)_API id 1051",
+          "value": 34185490,
+          "label": "РџСѓР±Р»РёС‡РЅС‹Р№ РњРђРўР§! (1000 СЂСѓР±.)_API id 1051",
           "code": "smotreshka_publichny_match_1000_id1051",
           "type": "UserServMode"
         },
         {
-          "usmid": 34185491,
-          "name": "Публичный МАТЧ! (1000 руб.)_API id 1051",
+          "value": 34185491,
+          "label": "РџСѓР±Р»РёС‡РЅС‹Р№ РњРђРўР§! (1000 СЂСѓР±.)_API id 1051",
           "code": "smotreshka_publichny_match_1000_id1051",
           "type": "UserServMode"
         }
       ]
     },
     {
-      "id": 147,
-      "name": "Абонентская плата (ежемесячная)",
+      "value": 147,
+      "label": "РђР±РѕРЅРµРЅС‚СЃРєР°СЏ РїР»Р°С‚Р° (РµР¶РµРјРµСЃСЏС‡РЅР°СЏ)",
       "code": "abon_pay_every_month",
       "type": "ProductService",
       "modes": [
         {
-          "usmid": 34185487,
-          "name": "APN",
+          "value": 34185487,
+          "label": "APN",
           "code": "apn",
           "type": "UserServMode"
         }
       ]
     },
     {
-      "id": 146,
-      "name": "IP-TV (0 руб.)",
+      "value": 146,
+      "label": "IP-TV (0 СЂСѓР±.)",
       "code": "iptv_0rub",
       "type": "ProductService",
       "modes": [
         {
-          "usmid": 34185488,
-          "name": "Обычный",
+          "value": 34185488,
+          "label": "РћР±С‹С‡РЅС‹Р№",
           "code": null,
           "type": "UserServMode"
         }
       ]
     },
     {
-      "id": 143,
-      "name": "IPTV: 3-й Телевизор (0 руб.)",
+      "value": 143,
+      "label": "IPTV: 3-Р№ РўРµР»РµРІРёР·РѕСЂ (0 СЂСѓР±.)",
       "code": "all_iptv_plus3tv_0rub",
       "type": "ProductService",
       "modes": [
         {
-          "usmid": 34185489,
-          "name": "Базовый",
+          "value": 34185489,
+          "label": "Р‘Р°Р·РѕРІС‹Р№",
           "code": null,
           "type": "UserServMode"
         }

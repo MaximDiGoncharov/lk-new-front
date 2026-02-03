@@ -5,6 +5,10 @@ import {useMessage} from "naive-ui";
 export const useApiStore = defineStore('api',
     () => {
 
+        function _url() {
+            return 'http://localhost/user-cabinet/';
+        }
+
         // Метод через который мы обращаемся к бэку
         async function _ajax(url, options = {}, handleSuccess = () => {
         }, handleError = () => {
@@ -21,7 +25,7 @@ export const useApiStore = defineStore('api',
                     body: options.body ? JSON.stringify(options.body) : null,
                     ...options.extraOptions,
                 }
-
+                url = _url() + url;
                 const response = await fetch(url, config)
                 let data = await response.json()
 
@@ -53,16 +57,20 @@ export const useApiStore = defineStore('api',
 
         // Вызывает положительное уведомление
         function _successNotify(message, options = {}) {
-            // message.success(message || 'Success query', options)
+            message.success(message || 'Success query', options)
         }
 
         // Вызывает отрицательное уведомление
         function _dangerNotify(message) {
-            // this.message.error(message || 'Error query');
+         message.error(message || 'Error query');
         }
 
         function _getStorage(key) {
             return sessionStorage.getItem(key) ?? null;
+        }
+
+        function _clearStorage() {
+            sessionStorage.clear();
         }
 
         function _setStorage(key, value, days = 1) {
@@ -76,6 +84,7 @@ export const useApiStore = defineStore('api',
             _successNotify,
             _dangerNotify,
             _getStorage,
-            _setStorage
+            _setStorage,
+            _clearStorage
         }
     })
