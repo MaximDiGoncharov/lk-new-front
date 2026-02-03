@@ -1,5 +1,5 @@
 <template>
-  <n-config-provider :theme="isDark ? darkTheme : null">
+  <n-config-provider :theme="themeModeStore.isDark ? darkTheme : null">
     <n-space vertical style="height: 100vh">
       <!--    <n-switch v-model:value="collapsed">-->
       <!--      <template #checked-icon>-->
@@ -53,9 +53,7 @@
 import {
   Earth as InternetIcon,
   Grid as ServiceIcon,
-
   WalletOutline as FinanceIcon,
-
   ArrowForwardOutline, ArrowBackOutline
 } from "@vicons/ionicons5";
 import {NIcon} from "naive-ui";
@@ -65,6 +63,7 @@ import Header from "@/layout/Header.vue";
 import HeaderDropdown from "@/layout/HeaderDropdown.vue";
 import {darkTheme} from 'naive-ui'
 import {RouterLink} from "vue-router";
+import {useThemeModeStore} from "@/stores/themeMode.js";
 
 export default {
   name: "ContentDefault",
@@ -78,13 +77,14 @@ export default {
   },
   components: {Sidebar, HeaderDropdown, Header},
   setup() {
+    const themeModeStore = useThemeModeStore()
     return {
-      darkTheme
+      darkTheme,
+      themeModeStore
     }
   },
   data() {
     return {
-      isDark: true,
       activeKey: null,
       collapsed: true,
       menuOptions: [

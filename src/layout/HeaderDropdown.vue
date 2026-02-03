@@ -1,6 +1,6 @@
 <template>
   <n-dropdown :options="options">
-    <n-button>
+    <n-button circle>
       <template #icon>
         <n-icon>
           <DropdownIcon />
