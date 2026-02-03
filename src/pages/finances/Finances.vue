@@ -8,6 +8,15 @@ export default {
 </script>
 
 <template>
+  <n-layout class="p-5">
+    <n-breadcrumb>
+      <n-breadcrumb-item v-for="i in ['Интернет', 'Тариф']">
+        {{ i }}
+      </n-breadcrumb-item>
+    </n-breadcrumb>
+  </n-layout>
+
+
   <n-card title="Финансы" style="margin-bottom: 16px">
     <n-tabs default-value="balance" justify-content="space-evenly" type="line">
       <n-tab-pane name="balance" tab="Баланс">
