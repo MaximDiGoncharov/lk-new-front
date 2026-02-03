@@ -1,10 +1,6 @@
 <template>
-  <n-dropdown
-      :options="options"
-  >
-    <n-button #icon>
-      <EllipsisVertical/>
-    </n-button>
+  <n-dropdown :options="options">
+    <n-button>User Profile</n-button>
   </n-dropdown>
 </template>
 

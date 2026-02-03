@@ -20,6 +20,7 @@
             show-trigger
             @collapse="collapsed = true"
             @expand="collapsed = false"
+            class="pt-5"
         >
           <n-menu
               v-model:value="activeKey"
@@ -29,12 +30,12 @@
               :options="menuOptions"
 
           />
-          <n-switch v-model:value="isDark">
+<!--          <n-switch v-model:value="isDark">-->
 
-          </n-switch>
+<!--          </n-switch>-->
         </n-layout-sider>
         <n-layout>
-          <n-layout-header id="header">Header</n-layout-header>
+          <n-layout-header id="header"><Header/></n-layout-header>
           <n-layout-content id="content">
             <n-message-provider>
               <router-view/>
@@ -60,6 +61,7 @@ import {
 import {NIcon} from "naive-ui";
 import {h} from "vue";
 import Sidebar from "@/layout/Sidebar.vue";
+import Header from "@/layout/Header.vue";
 import HeaderDropdown from "@/layout/HeaderDropdown.vue";
 import {darkTheme} from 'naive-ui'
 import {RouterLink} from "vue-router";
@@ -74,7 +76,7 @@ export default {
       return ArrowForwardOutline
     }
   },
-  components: {Sidebar, HeaderDropdown},
+  components: {Sidebar, HeaderDropdown, Header},
   setup() {
     return {
       darkTheme
@@ -135,18 +137,15 @@ export default {
     renderIcon(icon) {
       return () => h(NIcon, null, {default: () => h(icon)});
     }
-    // ,
-    // changeTheme(){
-    //   this.darkTheme = !this.darkTheme;
-    // }
+
   }
 }
 </script>
 
 <style scoped>
-#header {
-  height: 5vh;
 
+#header {
+  padding: 1rem;
 }
 
 #content {
